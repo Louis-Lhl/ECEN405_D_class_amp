@@ -1,4 +1,115 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Driver_FET:IR21834 U?
+U 1 1 6111DE72
+P 3250 2900
+F 0 "U?" H 3250 3581 50  0000 C CNN
+F 1 "IR21834" H 3250 3490 50  0000 C CNN
+F 2 "" H 3250 2900 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2183.pdf?fileId=5546d462533600a4015355c9490e16d1" H 3250 2900 50  0001 C CNN
+	1    3250 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Driver_FET:IR21834 U?
+U 1 1 6111E14E
+P 6750 2900
+F 0 "U?" H 6750 3581 50  0000 C CNN
+F 1 "IR21834" H 6750 3490 50  0000 C CNN
+F 2 "" H 6750 2900 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir2183.pdf?fileId=5546d462533600a4015355c9490e16d1" H 6750 2900 50  0001 C CNN
+	1    6750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 61120854
+P 4250 2500
+F 0 "Q?" H 4454 2546 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4454 2455 50  0000 L CNN
+F 2 "" H 4450 2600 50  0001 C CNN
+F 3 "~" H 4250 2500 50  0001 C CNN
+	1    4250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 6112142D
+P 5850 2500
+F 0 "Q?" H 6055 2454 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 6055 2545 50  0000 L CNN
+F 2 "" H 6050 2600 50  0001 C CNN
+F 3 "~" H 5850 2500 50  0001 C CNN
+	1    5850 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 61121944
+P 4250 3150
+F 0 "Q?" H 4454 3196 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4454 3105 50  0000 L CNN
+F 2 "" H 4450 3250 50  0001 C CNN
+F 3 "~" H 4250 3150 50  0001 C CNN
+	1    4250 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 61121FF7
+P 5850 3150
+F 0 "Q?" H 6055 3104 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 6055 3195 50  0000 L CNN
+F 2 "" H 6050 3250 50  0001 C CNN
+F 3 "~" H 5850 3150 50  0001 C CNN
+	1    5850 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61123F91
+P 3850 2900
+F 0 "C?" H 3965 2946 50  0000 L CNN
+F 1 "C" H 3965 2855 50  0000 L CNN
+F 2 "" H 3888 2750 50  0001 C CNN
+F 3 "~" H 3850 2900 50  0001 C CNN
+	1    3850 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61124489
+P 6150 2850
+F 0 "C?" H 6265 2896 50  0000 L CNN
+F 1 "C" H 6265 2805 50  0000 L CNN
+F 2 "" H 6188 2700 50  0001 C CNN
+F 3 "~" H 6150 2850 50  0001 C CNN
+	1    6150 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 1 1 61124B51
+P 4000 4450
+F 0 "U?" H 4000 4767 50  0000 C CNN
+F 1 "74LS04" H 4000 4676 50  0000 C CNN
+F 2 "" H 4000 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 4000 4450 50  0001 C CNN
+	1    4000 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
