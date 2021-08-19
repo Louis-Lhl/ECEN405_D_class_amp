@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM324KAN
+D Quadruple improved offset and ESD protection operational amplifier
+K
+F http://www.ti.com/lit/gpn/lm324ka
+$ENDCMP
+#
+#End Doc Library

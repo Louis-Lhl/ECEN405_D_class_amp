@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name LM361)(type Legacy)(uri ${KIPRJMOD}/LM361/LM361N_NOPB.lib)(options "")(descr Comparator))
+  (lib (name LM324)(type Legacy)(uri ${KIPRJMOD}/LM324/LM324KAN.lib)(options "")(descr "Quad Op-Amp"))
+)

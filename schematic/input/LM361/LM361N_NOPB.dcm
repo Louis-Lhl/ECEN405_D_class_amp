@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM361N_NOPB
+D Texas Instruments LM361N/NOPB Dual Comparator, TTL O/P, 0.02us 14-Pin PDIP
+K
+F http://www.ti.com/lit/ds/symlink/lm361.pdf
+$ENDCMP
+#
+#End Doc Library
