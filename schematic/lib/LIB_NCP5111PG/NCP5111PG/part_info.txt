@@ -1,0 +1,9 @@
+Manufacturer=ON Semiconductor
+PartNumber=NCP5111PG
+PartCategory=Integrated Circuit
+PackageCategory=Dual-In-Line Packages
+PinCount=8
+Version=4.1
+Released=2015-08-18 09:44:29
+Downloaded=2021-08-19 00:55:54
+3D=Y

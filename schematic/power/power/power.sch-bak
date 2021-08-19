@@ -1,4 +1,486 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 61120854
+P 4200 2550
+F 0 "Q?" H 4404 2596 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4404 2505 50  0000 L CNN
+F 2 "" H 4400 2650 50  0001 C CNN
+F 3 "~" H 4200 2550 50  0001 C CNN
+	1    4200 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 61121944
+P 4200 3450
+F 0 "Q?" H 4404 3496 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 4404 3405 50  0000 L CNN
+F 2 "" H 4400 3550 50  0001 C CNN
+F 3 "~" H 4200 3450 50  0001 C CNN
+	1    4200 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U?
+U 1 1 61124B51
+P 2150 4450
+F 0 "U?" H 2150 4767 50  0000 C CNN
+F 1 "74LS04" H 2150 4676 50  0000 C CNN
+F 2 "" H 2150 4450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2150 4450 50  0001 C CNN
+	1    2150 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L NCP5111PG:NCP5111PG IC?
+U 1 1 611DF4BA
+P 1900 2750
+F 0 "IC?" H 2550 3015 50  0000 C CNN
+F 1 "NCP5111PG" H 2550 2924 50  0000 C CNN
+F 2 "DIP794W56P254L959H533Q8N" H 3050 2850 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NCP5111-D.PDF" H 3050 2750 50  0001 L CNN
+F 4 "ON Semiconductor NCP5111PG, Dual MOSFET Power Driver 500mA Half Bridge, 10  20 V, Inverting, 8-Pin PDIP" H 3050 2650 50  0001 L CNN "Description"
+F 5 "5.33" H 3050 2550 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 3050 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "NCP5111PG" H 3050 2350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-NCP5111PG" H 3050 2250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NCP5111PG" H 3050 2150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 3050 2050 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 3050 1950 50  0001 L CNN "Arrow Price/Stock"
+	1    1900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 611E11A9
+P 1150 2050
+F 0 "#PWR?" H 1150 1900 50  0001 C CNN
+F 1 "+15V" H 1165 2223 50  0000 C CNN
+F 2 "" H 1150 2050 50  0001 C CNN
+F 3 "" H 1150 2050 50  0001 C CNN
+	1    1150 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 611E6FA6
+P 1450 2250
+F 0 "C?" H 1565 2296 50  0000 L CNN
+F 1 "C" H 1565 2205 50  0000 L CNN
+F 2 "" H 1488 2100 50  0001 C CNN
+F 3 "~" H 1450 2250 50  0001 C CNN
+	1    1450 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 611E7B3A
+P 2350 2050
+F 0 "D?" H 2350 2315 50  0000 C CNN
+F 1 "DIODE" H 2350 2224 50  0000 C CNN
+F 2 "" H 2350 2050 50  0001 C CNN
+F 3 "~" H 2350 2050 50  0001 C CNN
+	1    2350 2050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1000 2850 0    50   Input ~ 0
+PWM_IN
+$Comp
+L power:GND #PWR?
+U 1 1 611EEC0F
+P 1450 2450
+F 0 "#PWR?" H 1450 2200 50  0001 C CNN
+F 1 "GND" H 1455 2277 50  0000 C CNN
+F 2 "" H 1450 2450 50  0001 C CNN
+F 3 "" H 1450 2450 50  0001 C CNN
+	1    1450 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 2050 1450 2050
+Wire Wire Line
+	1450 2400 1450 2450
+Wire Wire Line
+	1850 2050 1850 2750
+Wire Wire Line
+	1850 2750 1900 2750
+Connection ~ 1450 2050
+Wire Wire Line
+	1450 2050 1450 2100
+Wire Wire Line
+	1450 2050 1850 2050
+Wire Wire Line
+	1000 2850 1150 2850
+$Comp
+L power:GND #PWR?
+U 1 1 611F75C3
+P 1450 3050
+F 0 "#PWR?" H 1450 2800 50  0001 C CNN
+F 1 "GND" H 1455 2877 50  0000 C CNN
+F 2 "" H 1450 3050 50  0001 C CNN
+F 3 "" H 1450 3050 50  0001 C CNN
+	1    1450 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2950 1450 2950
+Wire Wire Line
+	1450 2950 1450 3050
+Wire Wire Line
+	1850 2050 2150 2050
+Connection ~ 1850 2050
+Wire Wire Line
+	2550 2050 3350 2050
+Wire Wire Line
+	3350 2050 3350 2750
+Wire Wire Line
+	3350 2750 3200 2750
+$Comp
+L Device:C C?
+U 1 1 611FB5BF
+P 3600 2750
+F 0 "C?" H 3715 2796 50  0000 L CNN
+F 1 "C" H 3715 2705 50  0000 L CNN
+F 2 "" H 3638 2600 50  0001 C CNN
+F 3 "~" H 3600 2750 50  0001 C CNN
+	1    3600 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3350 2750 3450 2750
+Connection ~ 3350 2750
+Wire Wire Line
+	3750 2750 3850 2750
+Wire Wire Line
+	3850 2750 3850 2950
+Wire Wire Line
+	3850 2950 3200 2950
+Wire Wire Line
+	3850 2950 4300 2950
+Wire Wire Line
+	4300 2950 4300 2750
+Connection ~ 3850 2950
+Wire Wire Line
+	4300 2950 4300 3250
+Connection ~ 4300 2950
+Wire Wire Line
+	3200 2850 3950 2850
+Wire Wire Line
+	3950 2850 3950 2550
+Wire Wire Line
+	3950 2550 4000 2550
+Wire Wire Line
+	1900 3050 1750 3050
+Wire Wire Line
+	1750 3050 1750 3450
+Wire Wire Line
+	1750 3450 4000 3450
+$Comp
+L power:VDD #PWR?
+U 1 1 612024A6
+P 4300 1750
+F 0 "#PWR?" H 4300 1600 50  0001 C CNN
+F 1 "VDD" H 4315 1923 50  0000 C CNN
+F 2 "" H 4300 1750 50  0001 C CNN
+F 3 "" H 4300 1750 50  0001 C CNN
+	1    4300 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61203381
+P 3850 2000
+F 0 "C?" H 3965 2046 50  0000 L CNN
+F 1 "C" H 3965 1955 50  0000 L CNN
+F 2 "" H 3888 1850 50  0001 C CNN
+F 3 "~" H 3850 2000 50  0001 C CNN
+	1    3850 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 1800 3850 1850
+$Comp
+L power:GND #PWR?
+U 1 1 61204AD4
+P 3850 2250
+F 0 "#PWR?" H 3850 2000 50  0001 C CNN
+F 1 "GND" H 3855 2077 50  0000 C CNN
+F 2 "" H 3850 2250 50  0001 C CNN
+F 3 "" H 3850 2250 50  0001 C CNN
+	1    3850 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 2150 3850 2250
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 61230045
+P 6750 2550
+F 0 "Q?" H 6954 2596 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 6954 2505 50  0000 L CNN
+F 2 "" H 6950 2650 50  0001 C CNN
+F 3 "~" H 6750 2550 50  0001 C CNN
+	1    6750 2550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 6123004B
+P 6750 3450
+F 0 "Q?" H 6954 3496 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 6954 3405 50  0000 L CNN
+F 2 "" H 6950 3550 50  0001 C CNN
+F 3 "~" H 6750 3450 50  0001 C CNN
+	1    6750 3450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L NCP5111PG:NCP5111PG IC?
+U 1 1 61230059
+P 9050 2750
+F 0 "IC?" H 9700 3015 50  0000 C CNN
+F 1 "NCP5111PG" H 9700 2924 50  0000 C CNN
+F 2 "DIP794W56P254L959H533Q8N" H 10200 2850 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NCP5111-D.PDF" H 10200 2750 50  0001 L CNN
+F 4 "ON Semiconductor NCP5111PG, Dual MOSFET Power Driver 500mA Half Bridge, 10  20 V, Inverting, 8-Pin PDIP" H 10200 2650 50  0001 L CNN "Description"
+F 5 "5.33" H 10200 2550 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 10200 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "NCP5111PG" H 10200 2350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-NCP5111PG" H 10200 2250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=863-NCP5111PG" H 10200 2150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10200 2050 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10200 1950 50  0001 L CNN "Arrow Price/Stock"
+	1    9050 2750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+15V #PWR?
+U 1 1 6123005F
+P 9800 2050
+F 0 "#PWR?" H 9800 1900 50  0001 C CNN
+F 1 "+15V" H 9815 2223 50  0000 C CNN
+F 2 "" H 9800 2050 50  0001 C CNN
+F 3 "" H 9800 2050 50  0001 C CNN
+	1    9800 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61230065
+P 9500 2250
+F 0 "C?" H 9615 2296 50  0000 L CNN
+F 1 "C" H 9615 2205 50  0000 L CNN
+F 2 "" H 9538 2100 50  0001 C CNN
+F 3 "~" H 9500 2250 50  0001 C CNN
+	1    9500 2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L pspice:DIODE D?
+U 1 1 6123006B
+P 8600 2050
+F 0 "D?" H 8600 2315 50  0000 C CNN
+F 1 "DIODE" H 8600 2224 50  0000 C CNN
+F 2 "" H 8600 2050 50  0001 C CNN
+F 3 "~" H 8600 2050 50  0001 C CNN
+	1    8600 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61230072
+P 9500 2450
+F 0 "#PWR?" H 9500 2200 50  0001 C CNN
+F 1 "GND" H 9505 2277 50  0000 C CNN
+F 2 "" H 9500 2450 50  0001 C CNN
+F 3 "" H 9500 2450 50  0001 C CNN
+	1    9500 2450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9800 2050 9500 2050
+Wire Wire Line
+	9500 2400 9500 2450
+Wire Wire Line
+	9100 2050 9100 2750
+Wire Wire Line
+	9100 2750 9050 2750
+Connection ~ 9500 2050
+Wire Wire Line
+	9500 2050 9500 2100
+Wire Wire Line
+	9500 2050 9100 2050
+Wire Wire Line
+	9950 2850 9050 2850
+$Comp
+L power:GND #PWR?
+U 1 1 61230080
+P 9500 3050
+F 0 "#PWR?" H 9500 2800 50  0001 C CNN
+F 1 "GND" H 9505 2877 50  0000 C CNN
+F 2 "" H 9500 3050 50  0001 C CNN
+F 3 "" H 9500 3050 50  0001 C CNN
+	1    9500 3050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 2950 9500 2950
+Wire Wire Line
+	9500 2950 9500 3050
+Wire Wire Line
+	9100 2050 8800 2050
+Connection ~ 9100 2050
+Wire Wire Line
+	8400 2050 7600 2050
+Wire Wire Line
+	7600 2050 7600 2750
+Wire Wire Line
+	7600 2750 7750 2750
+$Comp
+L Device:C C?
+U 1 1 6123008D
+P 7350 2750
+F 0 "C?" H 7465 2796 50  0000 L CNN
+F 1 "C" H 7465 2705 50  0000 L CNN
+F 2 "" H 7388 2600 50  0001 C CNN
+F 3 "~" H 7350 2750 50  0001 C CNN
+	1    7350 2750
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	7600 2750 7500 2750
+Connection ~ 7600 2750
+Wire Wire Line
+	7200 2750 7100 2750
+Wire Wire Line
+	7100 2750 7100 2950
+Wire Wire Line
+	7100 2950 7750 2950
+Wire Wire Line
+	7100 2950 6650 2950
+Wire Wire Line
+	6650 2950 6650 2750
+Connection ~ 7100 2950
+Wire Wire Line
+	6650 2950 6650 3250
+Connection ~ 6650 2950
+Wire Wire Line
+	7750 2850 7000 2850
+Wire Wire Line
+	7000 2850 7000 2550
+Wire Wire Line
+	7000 2550 6950 2550
+Wire Wire Line
+	9050 3050 9200 3050
+Wire Wire Line
+	9200 3050 9200 3450
+Wire Wire Line
+	9200 3450 6950 3450
+$Comp
+L power:VDD #PWR?
+U 1 1 612300A3
+P 6650 1750
+F 0 "#PWR?" H 6650 1600 50  0001 C CNN
+F 1 "VDD" H 6665 1923 50  0000 C CNN
+F 2 "" H 6650 1750 50  0001 C CNN
+F 3 "" H 6650 1750 50  0001 C CNN
+	1    6650 1750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 612300AA
+P 7050 2000
+F 0 "C?" H 7165 2046 50  0000 L CNN
+F 1 "C" H 7165 1955 50  0000 L CNN
+F 2 "" H 7088 1850 50  0001 C CNN
+F 3 "~" H 7050 2000 50  0001 C CNN
+	1    7050 2000
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 1800 7050 1850
+$Comp
+L power:GND #PWR?
+U 1 1 612300B4
+P 7050 2250
+F 0 "#PWR?" H 7050 2000 50  0001 C CNN
+F 1 "GND" H 7055 2077 50  0000 C CNN
+F 2 "" H 7050 2250 50  0001 C CNN
+F 3 "" H 7050 2250 50  0001 C CNN
+	1    7050 2250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7050 2150 7050 2250
+Wire Wire Line
+	1150 2850 1150 4450
+Wire Wire Line
+	1150 4450 1850 4450
+Connection ~ 1150 2850
+Wire Wire Line
+	1150 2850 1900 2850
+Wire Wire Line
+	2450 4450 9950 4450
+$Comp
+L power:GND #PWR?
+U 1 1 6123CC17
+P 5450 3950
+F 0 "#PWR?" H 5450 3700 50  0001 C CNN
+F 1 "GND" H 5455 3777 50  0000 C CNN
+F 2 "" H 5450 3950 50  0001 C CNN
+F 3 "" H 5450 3950 50  0001 C CNN
+	1    5450 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4300 3650 4300 3900
+Wire Wire Line
+	4300 3900 5450 3900
+Wire Wire Line
+	5450 3900 5450 3950
+Text GLabel 4650 2950 2    50   Input ~ 0
+OUT+
+Text GLabel 6150 2950 0    50   Input ~ 0
+OUT-
+Wire Wire Line
+	9950 4450 9950 2850
+Wire Wire Line
+	5450 3900 6650 3900
+Connection ~ 5450 3900
+Wire Wire Line
+	6650 3900 6650 3650
+Wire Wire Line
+	4300 2950 4650 2950
+Wire Wire Line
+	6150 2950 6650 2950
+Wire Wire Line
+	4300 1750 4300 1800
+Wire Wire Line
+	3850 1800 4300 1800
+Connection ~ 4300 1800
+Wire Wire Line
+	4300 1800 4300 2350
+Wire Wire Line
+	6650 1750 6650 1800
+Wire Wire Line
+	7050 1800 6650 1800
+Connection ~ 6650 1800
+Wire Wire Line
+	6650 1800 6650 2350
 $EndSCHEMATC
