@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74LS04 U1
-U 1 1 61124B51
-P 2500 5250
-F 0 "U1" H 2500 5567 50  0000 C CNN
-F 1 "74LS04" H 2500 5476 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2500 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2500 5250 50  0001 C CNN
-	1    2500 5250
-	1    0    0    -1  
-$EndComp
-$Comp
 L NCP5111PG:NCP5111PG IC1
 U 1 1 611DF4BA
 P 2250 3550
@@ -193,7 +182,7 @@ U 1 1 612A361C
 P 3050 2850
 F 0 "D1" H 3350 2583 50  0000 C CNN
 F 1 "1N4936" H 3350 2674 50  0000 C CNN
-F 2 "KiCad:DIOAD1405W86L465D235" H 3500 2850 50  0001 L CNN
+F 2 "1N4936:DIOAD1405W86L465D235" H 3500 2850 50  0001 L CNN
 F 3 "http://www.onsemi.com/pub/Collateral/1N4933-D.PDF" H 3500 2750 50  0001 L CNN
 F 4 "ON Semi 1N4936 Switching Diode, 400V 1A, 2-Pin DO-41" H 3500 2650 50  0001 L CNN "Description"
 F 5 "" H 3500 2550 50  0001 L CNN "Height"
@@ -268,17 +257,6 @@ Wire Wire Line
 	5100 3550 5100 3750
 Wire Wire Line
 	5100 3750 5100 4050
-$Comp
-L 74xx:74LS04 U1
-U 7 1 612F6319
-P 2450 6500
-F 0 "U1" H 2680 6546 50  0000 L CNN
-F 1 "74LS04" H 2680 6455 50  0000 L CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2450 6500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2450 6500 50  0001 C CNN
-	7    2450 6500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 6130268D
@@ -570,25 +548,6 @@ F 3 "" H 10250 3250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10250 3200 10250 3250
-$Comp
-L 1N4936:1N4936 D2
-U 1 1 61215FE4
-P 8600 2850
-F 0 "D2" H 8900 2583 50  0000 C CNN
-F 1 "1N4936" H 8900 2674 50  0000 C CNN
-F 2 "KiCad:DIOAD1405W86L465D235" H 9050 2850 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/1N4933-D.PDF" H 9050 2750 50  0001 L CNN
-F 4 "ON Semi 1N4936 Switching Diode, 400V 1A, 2-Pin DO-41" H 9050 2650 50  0001 L CNN "Description"
-F 5 "" H 9050 2550 50  0001 L CNN "Height"
-F 6 "ON Semiconductor" H 9050 2450 50  0001 L CNN "Manufacturer_Name"
-F 7 "1N4936" H 9050 2350 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "512-1N4936" H 9050 2250 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/1N4936?qs=bYR4FvHn7XFIuZ57HFb%2F5Q%3D%3D" H 9050 2150 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1N4936" H 9050 2050 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/1n4936/on-semiconductor" H 9050 1950 50  0001 L CNN "Arrow Price/Stock"
-	1    8600 2850
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	9450 2850 9200 2850
 Connection ~ 9450 2850
@@ -731,5 +690,46 @@ F 2 "FQP17N40:TO254P470X990X1910-3P" H 6850 4350 50  0001 C CNN
 F 3 "~" H 6650 4250 50  0001 C CNN
 	1    6650 4250
 	-1   0    0    -1  
+$EndComp
+$Comp
+L 1N4936:1N4936 D2
+U 1 1 6127115C
+P 8600 2850
+F 0 "D2" H 8900 2583 50  0000 C CNN
+F 1 "1N4936" H 8900 2674 50  0000 C CNN
+F 2 "1N4936:DIOAD1405W86L465D235" H 9050 2850 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/1N4933-D.PDF" H 9050 2750 50  0001 L CNN
+F 4 "ON Semi 1N4936 Switching Diode, 400V 1A, 2-Pin DO-41" H 9050 2650 50  0001 L CNN "Description"
+F 5 "" H 9050 2550 50  0001 L CNN "Height"
+F 6 "ON Semiconductor" H 9050 2450 50  0001 L CNN "Manufacturer_Name"
+F 7 "1N4936" H 9050 2350 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "512-1N4936" H 9050 2250 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/1N4936?qs=bYR4FvHn7XFIuZ57HFb%2F5Q%3D%3D" H 9050 2150 50  0001 L CNN "Mouser Price/Stock"
+F 10 "1N4936" H 9050 2050 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/1n4936/on-semiconductor" H 9050 1950 50  0001 L CNN "Arrow Price/Stock"
+	1    8600 2850
+	1    0    0    1   
+$EndComp
+$Comp
+L 74xx:74LS04 U1
+U 7 1 612F6319
+P 2450 6500
+F 0 "U1" H 2680 6546 50  0000 L CNN
+F 1 "74LS04" H 2680 6455 50  0000 L CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2450 6500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2450 6500 50  0001 C CNN
+	7    2450 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS04 U1
+U 6 1 6128A88A
+P 2500 5250
+F 0 "U1" H 2500 5567 50  0000 C CNN
+F 1 "74LS04" H 2500 5476 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2500 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2500 5250 50  0001 C CNN
+	6    2500 5250
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
