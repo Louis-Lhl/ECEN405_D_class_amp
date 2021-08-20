@@ -897,7 +897,7 @@ U 1 1 6146FD52
 P 1350 4550
 F 0 "J1" H 1430 4542 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 1430 4451 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 1350 4550 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal" H 1350 4550 50  0001 C CNN
 F 3 "~" H 1350 4550 50  0001 C CNN
 	1    1350 4550
 	1    0    0    -1  
@@ -908,7 +908,7 @@ U 1 1 61470459
 P 10050 4650
 F 0 "J2" H 10130 4642 50  0000 L CNN
 F 1 "Screw_Terminal_01x04" H 10130 4551 50  0000 L CNN
-F 2 "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal" H 10050 4650 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-4-3.5-H_1x04_P3.50mm_Horizontal" H 10050 4650 50  0001 C CNN
 F 3 "~" H 10050 4650 50  0001 C CNN
 	1    10050 4650
 	1    0    0    -1  
