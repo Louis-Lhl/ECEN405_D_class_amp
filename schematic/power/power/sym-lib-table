@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name power-rescue)(type Legacy)(uri ${KIPRJMOD}/power-rescue.lib)(options "")(descr ""))
+  (lib (name 1N4936)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/LIB_1N4936/1N4936.lib)(options "")(descr ""))
+  (lib (name FQP17N40)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/LIB_FQP17N40/FQP17N40.lib)(options "")(descr ""))
+  (lib (name NCP5111PG)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/LIB_NCP5111PG/NCP5111PG.lib)(options "")(descr ""))
 )

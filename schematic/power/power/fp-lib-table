@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name 1N4936)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/LIB_1N4936/1N4936.mod)(options "")(descr ""))
+  (lib (name FQP17N40)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/LIB_FQP17N40/FQP17N40.mod)(options "")(descr ""))
+  (lib (name NCP5111PG)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/LIB_NCP5111PG/NCP5111PG.mod)(options "")(descr ""))
+)
