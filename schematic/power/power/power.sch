@@ -721,15 +721,4 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2450 6500 50  0001 C CNN
 	7    2450 6500
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74xx:74LS04 U1
-U 6 1 6128A88A
-P 2500 5250
-F 0 "U1" H 2500 5567 50  0000 C CNN
-F 1 "74LS04" H 2500 5476 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2500 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS04" H 2500 5250 50  0001 C CNN
-	6    2500 5250
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
