@@ -153,21 +153,21 @@ X AHB 9 500 300 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# dk_Transistors-FETs-MOSFETs-Single_FQP30N06L
+# dk_Transistors-FETs-MOSFETs-Single_IRF540NPBF
 #
-DEF dk_Transistors-FETs-MOSFETs-Single_FQP30N06L Q 0 0 Y Y 1 F N
+DEF dk_Transistors-FETs-MOSFETs-Single_IRF540NPBF Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
-F1 "dk_Transistors-FETs-MOSFETs-Single_FQP30N06L" 136 0 60 V V C CNN
+F1 "dk_Transistors-FETs-MOSFETs-Single_IRF540NPBF" 136 0 60 V V C CNN
 F2 "digikey-footprints:TO-220-3" 200 200 60 H I L CNN
-F3 "https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf" 200 300 60 H I L CNN
-F4 "FQP30N06L-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "FQP30N06L" 200 500 60 H I L CNN "MPN"
+F3 "https://www.infineon.com/dgdl/irf540npbf.pdf?fileId=5546d462533600a4015355e39f0d19a1" 200 300 60 H I L CNN
+F4 "IRF540NPBF-ND" 200 400 60 H I L CNN "Digi-Key_PN"
+F5 "IRF540NPBF" 200 500 60 H I L CNN "MPN"
 F6 "Discrete Semiconductor Products" 200 600 60 H I L CNN "Category"
 F7 "Transistors - FETs, MOSFETs - Single" 200 700 60 H I L CNN "Family"
-F8 "https://www.onsemi.com/pub/Collateral/FQP30N06L-D.pdf" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/on-semiconductor/FQP30N06L/FQP30N06L-ND/1055122" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "MOSFET N-CH 60V 32A TO-220" 200 1000 60 H I L CNN "Description"
-F11 "ON Semiconductor" 200 1100 60 H I L CNN "Manufacturer"
+F8 "https://www.infineon.com/dgdl/irf540npbf.pdf?fileId=5546d462533600a4015355e39f0d19a1" 200 800 60 H I L CNN "DK_Datasheet_Link"
+F9 "/product-detail/en/infineon-technologies/IRF540NPBF/IRF540NPBF-ND/811869" 200 900 60 H I L CNN "DK_Detail_Page"
+F10 "MOSFET N-CH 100V 33A TO-220AB" 200 1000 60 H I L CNN "Description"
+F11 "Infineon Technologies" 200 1100 60 H I L CNN "Manufacturer"
 F12 "Active" 200 1200 60 H I L CNN "Status"
 DRAW
 C -50 0 130 0 1 0 f
@@ -175,6 +175,8 @@ C 0 -75 5 0 1 0 N
 C 0 -55 5 0 1 0 N
 C 0 75 5 0 1 0 N
 P 2 0 1 0 0 -55 -100 -55 N
+P 2 0 1 0 20 20 14 14 N
+P 2 0 1 0 60 20 68 26 N
 P 3 0 1 0 -200 -100 -120 -100 -120 55 N
 P 3 0 1 0 0 -100 0 0 -100 0 N
 P 3 0 1 0 0 100 0 55 -100 55 N
@@ -193,6 +195,21 @@ X S 3 0 -200 100 U 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
+# power_+10V
+#
+DEF power_+10V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+10V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +10V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
 # power_+15V
 #
 DEF power_+15V #PWR 0 0 Y Y 1 F P
@@ -205,21 +222,6 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +15V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

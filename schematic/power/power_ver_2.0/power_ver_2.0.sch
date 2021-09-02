@@ -25,70 +25,6 @@ F 3 "https://www.renesas.com/www/doc/datasheet/hip4082.pdf" H 3700 4900 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:FQP30N06L Q2
-U 1 1 612E6255
-P 6500 4350
-F 0 "Q2" H 6608 4403 60  0000 L CNN
-F 1 "RFP12N10L" H 6608 4297 60  0000 L CNN
-F 2 "digikey-footprints:TO-220-3" H 6700 4550 60  0001 L CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/rfp12n10l-d.pdf" H 6700 4650 60  0001 L CNN
-F 4 "RFP12N10L" H 6700 4850 60  0001 L CNN "MPN"
-F 5 "https://www.digikey.co.nz/en/products/detail/onsemi/RFP12N10L/458764?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIAuoQA4AuUIAyuwE4BLAHYBzEAF9CMAAwxEIFJAw4CxMiADM9OnAQsQHLr0GiJhavQrzFyvIRKRyAJgCs9etI3M2nSD37CYpIgTrI01mhYdmqO4NLSAAQAat4GviAAqkIC7ADyqACyuOjYAK58uGYgALROEZD8paoO5C4ghHrB1RDQCpEq9uoUNOFM4sF1sQC2RNiouJxjQA" H 6700 5150 60  0001 L CNN "DK_Datasheet_Link"
-F 6 "MOSFET N-CH 100V 12A TO-220" H 6700 5350 60  0001 L CNN "Description"
-F 7 "ON Semiconductor" H 6700 5450 60  0001 L CNN "Manufacturer"
-F 8 "Active" H 6700 5550 60  0001 L CNN "Status"
-	1    6500 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:FQP30N06L Q1
-U 1 1 612E4170
-P 6500 2900
-F 0 "Q1" H 6608 2953 60  0000 L CNN
-F 1 "RFP12N10L" H 6608 2847 60  0000 L CNN
-F 2 "digikey-footprints:TO-220-3" H 6700 3100 60  0001 L CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/rfp12n10l-d.pdf" H 6700 3200 60  0001 L CNN
-F 4 "RFP12N10L" H 6700 3400 60  0001 L CNN "MPN"
-F 5 "https://www.digikey.co.nz/en/products/detail/onsemi/RFP12N10L/458764?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIAuoQA4AuUIAyuwE4BLAHYBzEAF9CMAAwxEIFJAw4CxMiADM9OnAQsQHLr0GiJhavQrzFyvIRKRyAJgCs9etI3M2nSD37CYpIgTrI01mhYdmqO4NLSAAQAat4GviAAqkIC7ADyqACyuOjYAK58uGYgALROEZD8paoO5C4ghHrB1RDQCpEq9uoUNOFM4sF1sQC2RNiouJxjQA" H 6700 3700 60  0001 L CNN "DK_Datasheet_Link"
-F 6 "MOSFET N-CH 100V 12A TO-220" H 6700 3900 60  0001 L CNN "Description"
-F 7 "ON Semiconductor" H 6700 4000 60  0001 L CNN "Manufacturer"
-F 8 "Active" H 6700 4100 60  0001 L CNN "Status"
-	1    6500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:FQP30N06L Q3
-U 1 1 612E7A10
-P 9650 2950
-F 0 "Q3" H 9758 3003 60  0000 L CNN
-F 1 "RFP12N10L" H 9758 2897 60  0000 L CNN
-F 2 "digikey-footprints:TO-220-3" H 9850 3150 60  0001 L CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/rfp12n10l-d.pdf" H 9850 3250 60  0001 L CNN
-F 4 "RFP12N10L" H 9850 3450 60  0001 L CNN "MPN"
-F 5 "https://www.digikey.co.nz/en/products/detail/onsemi/RFP12N10L/458764?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIAuoQA4AuUIAyuwE4BLAHYBzEAF9CMAAwxEIFJAw4CxMiADM9OnAQsQHLr0GiJhavQrzFyvIRKRyAJgCs9etI3M2nSD37CYpIgTrI01mhYdmqO4NLSAAQAat4GviAAqkIC7ADyqACyuOjYAK58uGYgALROEZD8paoO5C4ghHrB1RDQCpEq9uoUNOFM4sF1sQC2RNiouJxjQA" H 9850 3750 60  0001 L CNN "DK_Datasheet_Link"
-F 6 "MOSFET N-CH 100V 12A TO-220" H 9850 3950 60  0001 L CNN "Description"
-F 7 "ON Semiconductor" H 9850 4050 60  0001 L CNN "Manufacturer"
-F 8 "Active" H 9850 4150 60  0001 L CNN "Status"
-	1    9650 2950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:FQP30N06L Q4
-U 1 1 612E8105
-P 9650 4350
-F 0 "Q4" H 9758 4403 60  0000 L CNN
-F 1 "RFP12N10L" H 9758 4297 60  0000 L CNN
-F 2 "digikey-footprints:TO-220-3" H 9850 4550 60  0001 L CNN
-F 3 "https://www.onsemi.com/pdf/datasheet/rfp12n10l-d.pdf" H 9850 4650 60  0001 L CNN
-F 4 "RFP12N10L" H 9850 4850 60  0001 L CNN "MPN"
-F 5 "https://www.digikey.co.nz/en/products/detail/onsemi/RFP12N10L/458764?s=N4IgjCBcoGwJxVAYygMwIYBsDOBTANCAPZQDaIALGGABxwDsIAuoQA4AuUIAyuwE4BLAHYBzEAF9CMAAwxEIFJAw4CxMiADM9OnAQsQHLr0GiJhavQrzFyvIRKRyAJgCs9etI3M2nSD37CYpIgTrI01mhYdmqO4NLSAAQAat4GviAAqkIC7ADyqACyuOjYAK58uGYgALROEZD8paoO5C4ghHrB1RDQCpEq9uoUNOFM4sF1sQC2RNiouJxjQA" H 9850 5150 60  0001 L CNN "DK_Datasheet_Link"
-F 6 "MOSFET N-CH 100V 12A TO-220" H 9850 5350 60  0001 L CNN "Description"
-F 7 "ON Semiconductor" H 9850 5450 60  0001 L CNN "Manufacturer"
-F 8 "Active" H 9850 5550 60  0001 L CNN "Status"
-	1    9650 4350
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J1
 U 1 1 612E2854
 P 1600 1500
@@ -107,16 +43,8 @@ Text GLabel 2300 1500 2    50   Output ~ 0
 PWM-
 Wire Wire Line
 	1800 1500 2300 1500
-Wire Wire Line
-	2400 4250 3100 4250
-Wire Wire Line
-	2400 4050 3100 4050
-Wire Wire Line
-	2400 4050 2400 4250
-Text GLabel 3100 4350 0    50   Input ~ 0
+Text GLabel 1800 4350 0    50   Input ~ 0
 PWM+
-Text GLabel 3100 4150 0    50   Input ~ 0
-PWM-
 $Comp
 L Device:R R1
 U 1 1 612EB372
@@ -225,14 +153,10 @@ F 3 "~" H 3550 1500 50  0001 C CNN
 	1    3550 1500
 	-1   0    0    1   
 $EndComp
-Text GLabel 4300 1500 2    50   Input ~ 0
-Out+
 Text GLabel 4300 1400 2    50   Input ~ 0
+Out+
+Text GLabel 4300 1500 2    50   Input ~ 0
 Out-
-Wire Wire Line
-	3750 1400 4300 1400
-Wire Wire Line
-	3750 1500 4300 1500
 Wire Wire Line
 	4350 4150 4350 4400
 Wire Wire Line
@@ -348,17 +272,6 @@ Connection ~ 8400 3750
 Wire Wire Line
 	7600 3750 7700 3750
 Connection ~ 7600 3750
-$Comp
-L power:+15V #PWR010
-U 1 1 612E2A17
-P 3600 2800
-F 0 "#PWR010" H 3600 2650 50  0001 C CNN
-F 1 "+15V" H 3615 2973 50  0000 C CNN
-F 2 "" H 3600 2800 50  0001 C CNN
-F 3 "" H 3600 2800 50  0001 C CNN
-	1    3600 2800
-	1    0    0    -1  
-$EndComp
 Connection ~ 3600 2800
 Wire Wire Line
 	3600 2800 3850 2800
@@ -388,8 +301,8 @@ $Comp
 L Device:R R2
 U 1 1 612EB5B6
 P 5900 3000
-F 0 "R2" H 5970 3046 50  0000 L CNN
-F 1 "R" H 5970 2955 50  0000 L CNN
+F 0 "R2" V 5900 2900 50  0000 L CNN
+F 1 "100" V 6000 2950 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5830 3000 50  0001 C CNN
 F 3 "~" H 5900 3000 50  0001 C CNN
 	1    5900 3000
@@ -399,8 +312,8 @@ $Comp
 L Device:R R3
 U 1 1 612EC006
 P 6050 4450
-F 0 "R3" H 6120 4496 50  0000 L CNN
-F 1 "R" H 6120 4405 50  0000 L CNN
+F 0 "R3" V 6050 4350 50  0000 L CNN
+F 1 "100" V 6150 4300 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 4450 50  0001 C CNN
 F 3 "~" H 6050 4450 50  0001 C CNN
 	1    6050 4450
@@ -410,8 +323,8 @@ $Comp
 L Device:R R9
 U 1 1 612EC8FD
 P 10200 3050
-F 0 "R9" H 10270 3096 50  0000 L CNN
-F 1 "R" H 10270 3005 50  0000 L CNN
+F 0 "R9" V 10200 3000 50  0000 L CNN
+F 1 "100" V 10100 3000 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10130 3050 50  0001 C CNN
 F 3 "~" H 10200 3050 50  0001 C CNN
 	1    10200 3050
@@ -423,8 +336,8 @@ $Comp
 L Device:R R8
 U 1 1 612EE942
 P 10150 4450
-F 0 "R8" H 10220 4496 50  0000 L CNN
-F 1 "R" H 10220 4405 50  0000 L CNN
+F 0 "R8" V 10150 4400 50  0000 L CNN
+F 1 "100" V 10250 4450 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10080 4450 50  0001 C CNN
 F 3 "~" H 10150 4450 50  0001 C CNN
 	1    10150 4450
@@ -452,7 +365,7 @@ L Device:R R4
 U 1 1 612FCBF5
 P 6150 3350
 F 0 "R4" H 6220 3396 50  0000 L CNN
-F 1 "R" H 6220 3305 50  0000 L CNN
+F 1 "10k" H 6220 3305 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3350 50  0001 C CNN
 F 3 "~" H 6150 3350 50  0001 C CNN
 	1    6150 3350
@@ -511,8 +424,8 @@ $Comp
 L Device:R R5
 U 1 1 61333563
 P 6200 4600
-F 0 "R5" H 6270 4646 50  0000 L CNN
-F 1 "R" H 6270 4555 50  0000 L CNN
+F 0 "R5" H 6050 4600 50  0000 L CNN
+F 1 "10k" H 6000 4700 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 4600 50  0001 C CNN
 F 3 "~" H 6200 4600 50  0001 C CNN
 	1    6200 4600
@@ -528,7 +441,7 @@ L Device:R R6
 U 1 1 61340288
 P 9950 4600
 F 0 "R6" H 10020 4646 50  0000 L CNN
-F 1 "R" H 10020 4555 50  0000 L CNN
+F 1 "10k" H 10020 4555 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9880 4600 50  0001 C CNN
 F 3 "~" H 9950 4600 50  0001 C CNN
 	1    9950 4600
@@ -582,7 +495,7 @@ L Device:R R7
 U 1 1 613536A8
 P 10050 3200
 F 0 "R7" H 10120 3246 50  0000 L CNN
-F 1 "R" H 10120 3155 50  0000 L CNN
+F 1 "10k" H 10120 3155 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9980 3200 50  0001 C CNN
 F 3 "~" H 10050 3200 50  0001 C CNN
 	1    10050 3200
@@ -734,18 +647,6 @@ F 3 "" H 2550 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR06
-U 1 1 61435FF5
-P 2400 4050
-F 0 "#PWR06" H 2400 3900 50  0001 C CNN
-F 1 "+5V" H 2415 4223 50  0000 C CNN
-F 2 "" H 2400 4050 50  0001 C CNN
-F 3 "" H 2400 4050 50  0001 C CNN
-	1    2400 4050
-	1    0    0    -1  
-$EndComp
-Connection ~ 2400 4050
-$Comp
 L power:GND #PWR08
 U 1 1 6143CBB1
 P 2950 3750
@@ -785,34 +686,34 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x02 J3
 U 1 1 61482427
-P 5200 1500
-F 0 "J3" H 5118 1175 50  0000 C CNN
-F 1 "OUTPUT Power" H 5118 1266 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 5200 1500 50  0001 C CNN
-F 3 "~" H 5200 1500 50  0001 C CNN
-	1    5200 1500
-	-1   0    0    1   
+P 5050 1400
+F 0 "J3" H 5000 1650 50  0000 C CNN
+F 1 "Amp_Power" H 5000 1550 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 5050 1400 50  0001 C CNN
+F 3 "~" H 5050 1400 50  0001 C CNN
+	1    5050 1400
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+15V #PWR011
 U 1 1 6148353F
-P 5400 1400
-F 0 "#PWR011" H 5400 1250 50  0001 C CNN
-F 1 "+15V" H 5415 1573 50  0000 C CNN
-F 2 "" H 5400 1400 50  0001 C CNN
-F 3 "" H 5400 1400 50  0001 C CNN
-	1    5400 1400
+P 5250 1400
+F 0 "#PWR011" H 5250 1250 50  0001 C CNN
+F 1 "+15V" H 5265 1573 50  0000 C CNN
+F 2 "" H 5250 1400 50  0001 C CNN
+F 3 "" H 5250 1400 50  0001 C CNN
+	1    5250 1400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 61484532
-P 5400 1500
-F 0 "#PWR012" H 5400 1250 50  0001 C CNN
-F 1 "GND" H 5405 1327 50  0000 C CNN
-F 2 "" H 5400 1500 50  0001 C CNN
-F 3 "" H 5400 1500 50  0001 C CNN
-	1    5400 1500
+P 5250 1500
+F 0 "#PWR012" H 5250 1250 50  0001 C CNN
+F 1 "GND" H 5255 1327 50  0000 C CNN
+F 2 "" H 5250 1500 50  0001 C CNN
+F 3 "" H 5250 1500 50  0001 C CNN
+	1    5250 1500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -854,22 +755,11 @@ L Connector:Screw_Terminal_01x02 J4
 U 1 1 614C15B1
 P 6400 1500
 F 0 "J4" H 6318 1175 50  0000 C CNN
-F 1 "PWM_power" H 6318 1266 50  0000 C CNN
+F 1 "Driver_power" H 6318 1266 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 6400 1500 50  0001 C CNN
 F 3 "~" H 6400 1500 50  0001 C CNN
 	1    6400 1500
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+5V #PWR017
-U 1 1 614CBF26
-P 6600 1400
-F 0 "#PWR017" H 6600 1250 50  0001 C CNN
-F 1 "+5V" V 6615 1528 50  0000 L CNN
-F 2 "" H 6600 1400 50  0001 C CNN
-F 3 "" H 6600 1400 50  0001 C CNN
-	1    6600 1400
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR018
@@ -883,10 +773,10 @@ F 3 "" H 6600 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:L L?
+L Device:L L2
 U 1 1 614D4A87
 P 8900 3750
-F 0 "L?" V 9090 3750 50  0000 C CNN
+F 0 "L2" V 9090 3750 50  0000 C CNN
 F 1 "2216-V-RC" V 8999 3750 50  0000 C CNN
 F 2 "Inductor_THT:L_Toroid_Vertical_L24.6mm_W15.5mm_P11.44mm_Pulse_KM-4" H 8900 3750 50  0001 C CNN
 F 3 "~" H 8900 3750 50  0001 C CNN
@@ -894,39 +784,199 @@ F 3 "~" H 8900 3750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C6
 U 1 1 614DAA49
 P 7450 4100
-F 0 "C?" H 7565 4146 50  0000 L CNN
+F 0 "C6" H 7565 4146 50  0000 L CNN
 F 1 "C324C106K3R5TA" H 7565 4055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 7488 3950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm" H 7488 3950 50  0001 C CNN
 F 3 "~" H 7450 4100 50  0001 C CNN
 F 4 "10uF 25V 10%" H 7450 4100 50  0001 C CNN "Description"
 	1    7450 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 614DB54C
 P 8600 4100
-F 0 "C?" H 8715 4146 50  0000 L CNN
+F 0 "C9" H 8715 4146 50  0000 L CNN
 F 1 "C324C106K3R5TA" H 8715 4055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 8638 3950 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm" H 8638 3950 50  0001 C CNN
 F 3 "~" H 8600 4100 50  0001 C CNN
 F 4 "10uF 25V 10%" H 8600 4100 50  0001 C CNN "Description"
 	1    8600 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C7
 U 1 1 614DC10B
 P 8000 3300
-F 0 "C?" V 7748 3300 50  0000 C CNN
+F 0 "C7" V 7748 3300 50  0000 C CNN
 F 1 "C324C106K3R5TA" V 7839 3300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 8038 3150 50  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D5.0mm_H11.0mm_P2.00mm" H 8038 3150 50  0001 C CNN
 F 3 "~" H 8000 3300 50  0001 C CNN
 F 4 "10uF 25V 10%" H 8000 3300 50  0001 C CNN "Description"
 	1    8000 3300
 	0    1    1    0   
 $EndComp
+Text GLabel 1800 4150 0    50   Input ~ 0
+PWM-
+Wire Wire Line
+	3000 4150 3000 4050
+Wire Wire Line
+	3000 4050 3100 4050
+Connection ~ 3000 4150
+Wire Wire Line
+	3000 4150 3100 4150
+Wire Wire Line
+	3000 4350 3000 4250
+Wire Wire Line
+	3000 4250 3100 4250
+Connection ~ 3000 4350
+Wire Wire Line
+	3000 4350 3100 4350
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q1
+U 1 1 613407F4
+P 6500 2900
+F 0 "Q1" H 6608 2953 60  0000 L CNN
+F 1 "IRF530A" H 6608 2847 60  0000 L CNN
+F 2 "digikey-footprints:TO-220-3" H 6700 3100 60  0001 L CNN
+F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 6700 3200 60  0001 L CNN
+F 4 "2156-IRF530A-ND" H 6700 3300 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRF530A" H 6700 3400 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 6700 3500 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 6700 3600 60  0001 L CNN "Family"
+F 8 "MOSFET N-CH 100V 14A TO-220AB" H 6700 3900 60  0001 L CNN "Description"
+F 9 "Infineon Technologies" H 6700 4000 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 6700 4100 60  0001 L CNN "Status"
+	1    6500 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q2
+U 1 1 61356BCC
+P 6500 4350
+F 0 "Q2" H 6608 4403 60  0000 L CNN
+F 1 "IRF530A" H 6608 4297 60  0000 L CNN
+F 2 "digikey-footprints:TO-220-3" H 6700 4550 60  0001 L CNN
+F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 6700 4650 60  0001 L CNN
+F 4 "2156-IRF530A-ND" H 6700 4750 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRF530A" H 6700 4850 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 6700 4950 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 6700 5050 60  0001 L CNN "Family"
+F 8 "MOSFET N-CH 100V 14A TO-220AB" H 6700 5350 60  0001 L CNN "Description"
+F 9 "Infineon Technologies" H 6700 5450 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 6700 5550 60  0001 L CNN "Status"
+	1    6500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q4
+U 1 1 61357F57
+P 9650 4350
+F 0 "Q4" H 9757 4403 60  0000 L CNN
+F 1 "IRF530A" H 9757 4297 60  0000 L CNN
+F 2 "digikey-footprints:TO-220-3" H 9850 4550 60  0001 L CNN
+F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 9850 4650 60  0001 L CNN
+F 4 "2156-IRF530A-ND" H 9850 4750 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRF530A" H 9850 4850 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9850 4950 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 9850 5050 60  0001 L CNN "Family"
+F 8 "MOSFET N-CH 100V 14A TO-220AB" H 9850 5350 60  0001 L CNN "Description"
+F 9 "Infineon Technologies" H 9850 5450 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 9850 5550 60  0001 L CNN "Status"
+	1    9650 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q3
+U 1 1 6136463E
+P 9650 2950
+F 0 "Q3" H 9757 3003 60  0000 L CNN
+F 1 "IRF530A" H 9757 2897 60  0000 L CNN
+F 2 "digikey-footprints:TO-220-3" H 9850 3150 60  0001 L CNN
+F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 9850 3250 60  0001 L CNN
+F 4 "2156-IRF530A-ND" H 9850 3350 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRF530A" H 9850 3450 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 9850 3550 60  0001 L CNN "Category"
+F 7 "Transistors - FETs, MOSFETs - Single" H 9850 3650 60  0001 L CNN "Family"
+F 8 "MOSFET N-CH 100V 14A TO-220AB" H 9850 3950 60  0001 L CNN "Description"
+F 9 "Infineon Technologies" H 9850 4050 60  0001 L CNN "Manufacturer"
+F 10 "Active" H 9850 4150 60  0001 L CNN "Status"
+	1    9650 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+10V #PWR010
+U 1 1 6136C310
+P 6600 1400
+F 0 "#PWR010" H 6600 1250 50  0001 C CNN
+F 1 "+10V" V 6615 1528 50  0000 L CNN
+F 2 "" H 6600 1400 50  0001 C CNN
+F 3 "" H 6600 1400 50  0001 C CNN
+	1    6600 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+10V #PWR06
+U 1 1 6136ECB5
+P 3600 2800
+F 0 "#PWR06" H 3600 2650 50  0001 C CNN
+F 1 "+10V" H 3615 2973 50  0000 C CNN
+F 2 "" H 3600 2800 50  0001 C CNN
+F 3 "" H 3600 2800 50  0001 C CNN
+	1    3600 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 61382D0D
+P 2300 4150
+F 0 "R10" V 2300 4050 50  0000 L CNN
+F 1 "470" V 2250 4300 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 4150 50  0001 C CNN
+F 3 "~" H 2300 4150 50  0001 C CNN
+	1    2300 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R11
+U 1 1 61383943
+P 2300 4350
+F 0 "R11" V 2300 4250 50  0000 L CNN
+F 1 "470" V 2250 4500 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 4350 50  0001 C CNN
+F 3 "~" H 2300 4350 50  0001 C CNN
+	1    2300 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1800 4150 2150 4150
+Wire Wire Line
+	2450 4150 3000 4150
+Wire Wire Line
+	1800 4350 2150 4350
+Wire Wire Line
+	2450 4350 3000 4350
+Text Label 6500 3300 0    50   ~ 0
+B_HI
+Text Label 6500 4000 0    50   ~ 0
+B_LO
+Text Label 9650 3250 2    50   ~ 0
+A_HI
+Text Label 9650 4000 2    50   ~ 0
+A_LO
+Text Label 4150 4250 0    50   ~ 0
+BLO
+Text Label 4150 4050 0    50   ~ 0
+BHO
+Text Label 4150 4450 0    50   ~ 0
+ALO
+Text Label 4150 5050 0    50   ~ 0
+AHO
+Wire Wire Line
+	3750 1400 4300 1400
+Wire Wire Line
+	3750 1500 4300 1500
 $EndSCHEMATC
