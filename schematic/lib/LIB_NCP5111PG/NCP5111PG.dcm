@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP NCP5111PG
-D ON Semiconductor NCP5111PG, Dual MOSFET Power Driver 500mA Half Bridge, 10  20 V, Inverting, 8-Pin PDIP
-K
-F http://www.onsemi.com/pub/Collateral/NCP5111-D.PDF
-$ENDCMP
-#
-#End Doc Library
