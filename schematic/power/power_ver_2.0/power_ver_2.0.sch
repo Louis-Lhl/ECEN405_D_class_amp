@@ -21,6 +21,7 @@ F 0 "U1" H 3600 4931 50  0000 C CNN
 F 1 "HIP4082IP" H 3600 4840 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 3700 4900 50  0001 L CNN
 F 3 "https://www.renesas.com/www/doc/datasheet/hip4082.pdf" H 3700 4900 50  0001 C CNN
+F 4 "Full bridge gate driver" H 3600 4150 50  0001 C CNN "Description"
 	1    3600 4150
 	1    0    0    -1  
 $EndComp
@@ -31,7 +32,8 @@ P 1600 1500
 F 0 "J1" H 1518 1175 50  0000 C CNN
 F 1 "PWM INPUT" H 1518 1266 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 1600 1500 50  0001 C CNN
-F 3 "~" H 1600 1500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 1600 1500 50  0001 C CNN
+F 4 "277-1667-ND" H 1600 1500 50  0001 C CNN "Digi-Key_PN"
 	1    1600 1500
 	-1   0    0    1   
 $EndComp
@@ -50,9 +52,10 @@ L Device:R R1
 U 1 1 612EB372
 P 2400 4850
 F 0 "R1" H 2470 4896 50  0000 L CNN
-F 1 "1K" H 2470 4805 50  0000 L CNN
+F 1 "MFP-25BRD52-1K" H 2470 4805 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2330 4850 50  0001 C CNN
 F 3 "~" H 2400 4850 50  0001 C CNN
+F 4 "1k ohm 1% 1/4w" H 2400 4850 50  0001 C CNN "Description"
 	1    2400 4850
 	1    0    0    -1  
 $EndComp
@@ -113,10 +116,10 @@ Connection ~ 9650 3750
 Wire Wire Line
 	9650 3750 9650 4150
 $Comp
-L power:GND #PWR03
+L power:GND #PWR011
 U 1 1 6131F4E5
 P 7450 4400
-F 0 "#PWR03" H 7450 4150 50  0001 C CNN
+F 0 "#PWR011" H 7450 4150 50  0001 C CNN
 F 1 "GND" H 7455 4227 50  0000 C CNN
 F 2 "" H 7450 4400 50  0001 C CNN
 F 3 "" H 7450 4400 50  0001 C CNN
@@ -126,10 +129,10 @@ $EndComp
 Wire Wire Line
 	7450 4400 7450 4250
 $Comp
-L power:GND #PWR05
+L power:GND #PWR015
 U 1 1 6132039F
 P 8600 4400
-F 0 "#PWR05" H 8600 4150 50  0001 C CNN
+F 0 "#PWR015" H 8600 4150 50  0001 C CNN
 F 1 "GND" H 8605 4227 50  0000 C CNN
 F 2 "" H 8600 4400 50  0001 C CNN
 F 3 "" H 8600 4400 50  0001 C CNN
@@ -149,7 +152,8 @@ P 3550 1500
 F 0 "J2" H 3468 1175 50  0000 C CNN
 F 1 "Audio OUTPUT" H 3468 1266 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3550 1500 50  0001 C CNN
-F 3 "~" H 3550 1500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 3550 1500 50  0001 C CNN
+F 4 "277-1667-ND" H 3550 1500 50  0001 C CNN "Digi-Key_PN"
 	1    3550 1500
 	-1   0    0    1   
 $EndComp
@@ -194,10 +198,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 3950 5700 3000
 $Comp
-L power:+15V #PWR04
+L power:+15V #PWR012
 U 1 1 613639A8
 P 8000 1850
-F 0 "#PWR04" H 8000 1700 50  0001 C CNN
+F 0 "#PWR012" H 8000 1700 50  0001 C CNN
 F 1 "+15V" H 8015 2023 50  0000 C CNN
 F 2 "" H 8000 1850 50  0001 C CNN
 F 3 "" H 8000 1850 50  0001 C CNN
@@ -205,12 +209,9 @@ F 3 "" H 8000 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 2700 8000 2700
-Wire Wire Line
 	9650 2700 9650 2750
 Wire Wire Line
 	8000 1850 8000 2000
-Connection ~ 8000 2700
 Wire Wire Line
 	8000 2700 9650 2700
 Wire Wire Line
@@ -279,18 +280,9 @@ F 0 "D1" H 4000 2583 50  0000 C CNN
 F 1 "1N4148" H 4000 2674 50  0000 C CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 2625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 2800 50  0001 C CNN
+F 4 "1N4148FS-ND" H 4000 2800 50  0001 C CNN "Digi-Key_PN"
+F 5 "100V 200mA " H 4000 2800 50  0001 C CNN "Description"
 	1    4000 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Diode:1N4148 D2
-U 1 1 612EACE2
-P 4000 3150
-F 0 "D2" H 4000 2933 50  0000 C CNN
-F 1 "1N4148" H 4000 3024 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 2975 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 3150 50  0001 C CNN
-	1    4000 3150
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -298,75 +290,19 @@ L Device:R R2
 U 1 1 612EB5B6
 P 5900 3000
 F 0 "R2" V 5900 2900 50  0000 L CNN
-F 1 "100" V 6000 2950 50  0000 L CNN
+F 1 "CFR-25JR-52-100R" V 6000 2950 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5830 3000 50  0001 C CNN
 F 3 "~" H 5900 3000 50  0001 C CNN
+F 4 "100 ohm 5% 1/4W" V 5900 3000 50  0001 C CNN "Description"
 	1    5900 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 612EC006
-P 6050 4450
-F 0 "R3" V 6050 4350 50  0000 L CNN
-F 1 "100" V 6150 4300 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 4450 50  0001 C CNN
-F 3 "~" H 6050 4450 50  0001 C CNN
-	1    6050 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R9
-U 1 1 612EC8FD
-P 10200 3050
-F 0 "R9" V 10200 3000 50  0000 L CNN
-F 1 "100" V 10100 3000 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10130 3050 50  0001 C CNN
-F 3 "~" H 10200 3050 50  0001 C CNN
-	1    10200 3050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	10050 3050 9950 3050
-$Comp
-L Device:R R8
-U 1 1 612EE942
-P 10150 4450
-F 0 "R8" V 10150 4400 50  0000 L CNN
-F 1 "100" V 10250 4450 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10080 4450 50  0001 C CNN
-F 3 "~" H 10150 4450 50  0001 C CNN
-	1    10150 4450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10000 4450 9950 4450
 Wire Wire Line
-	10300 4450 10300 4850
-Wire Wire Line
 	4250 4850 10300 4850
-$Comp
-L Diode:1N4148 D3
-U 1 1 612F4530
-P 5950 2750
-F 0 "D3" H 5950 2967 50  0000 C CNN
-F 1 "1N4148" H 5950 2876 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 2575 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 2750 50  0001 C CNN
-	1    5950 2750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 612FCBF5
-P 6150 3350
-F 0 "R4" H 6220 3396 50  0000 L CNN
-F 1 "10k" H 6220 3305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3350 50  0001 C CNN
-F 3 "~" H 6150 3350 50  0001 C CNN
-	1    6150 3350
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6200 3000 6150 3000
 Wire Wire Line
@@ -382,10 +318,6 @@ Wire Wire Line
 	6050 3000 6150 3000
 Connection ~ 6150 3000
 Wire Wire Line
-	6100 2750 6150 2750
-Wire Wire Line
-	6150 2750 6150 3000
-Wire Wire Line
 	5800 2750 5700 2750
 Wire Wire Line
 	5700 2750 5700 3000
@@ -397,103 +329,28 @@ Wire Wire Line
 	5850 3750 5850 4400
 Wire Wire Line
 	5850 3750 6500 3750
-$Comp
-L Diode:1N4148 D4
-U 1 1 6132CB77
-P 6050 4250
-F 0 "D4" H 6050 4467 50  0000 C CNN
-F 1 "1N4148" H 6050 4376 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6050 4075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6050 4250 50  0001 C CNN
-	1    6050 4250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5900 4250 5900 4450
-Wire Wire Line
-	6200 4250 6200 4450
 Connection ~ 6200 4450
-$Comp
-L Device:R R5
-U 1 1 61333563
-P 6200 4600
-F 0 "R5" H 6050 4600 50  0000 L CNN
-F 1 "10k" H 6000 4700 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 4600 50  0001 C CNN
-F 3 "~" H 6200 4600 50  0001 C CNN
-	1    6200 4600
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	6200 4750 6500 4750
 Connection ~ 6500 4750
 Wire Wire Line
 	6500 4750 6500 5350
-$Comp
-L Device:R R6
-U 1 1 61340288
-P 9950 4600
-F 0 "R6" H 10020 4646 50  0000 L CNN
-F 1 "10k" H 10020 4555 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9880 4600 50  0001 C CNN
-F 3 "~" H 9950 4600 50  0001 C CNN
-	1    9950 4600
-	-1   0    0    1   
-$EndComp
 Connection ~ 9950 4450
 Wire Wire Line
 	9950 4750 9650 4750
 Connection ~ 9650 4750
 Wire Wire Line
 	9650 4750 9650 4550
-$Comp
-L Diode:1N4148 D5
-U 1 1 6134411E
-P 10100 4250
-F 0 "D5" H 10100 4033 50  0000 C CNN
-F 1 "1N4148" H 10100 4124 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10100 4075 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10100 4250 50  0001 C CNN
-	1    10100 4250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9950 4250 9950 4450
 Wire Wire Line
 	10250 4250 10300 4250
-Wire Wire Line
-	10300 4250 10300 4450
-Connection ~ 10300 4450
-$Comp
-L Diode:1N4148 D6
-U 1 1 6134CCE7
-P 10200 2850
-F 0 "D6" H 10200 2633 50  0000 C CNN
-F 1 "1N4148" H 10200 2724 50  0000 C CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10200 2675 50  0001 C CNN
-F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10200 2850 50  0001 C CNN
-	1    10200 2850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10050 2850 10050 3050
 Connection ~ 10050 3050
 Wire Wire Line
 	10350 2850 10550 2850
 Wire Wire Line
 	10550 2850 10550 3050
 Connection ~ 10550 3050
-$Comp
-L Device:R R7
-U 1 1 613536A8
-P 10050 3200
-F 0 "R7" H 10120 3246 50  0000 L CNN
-F 1 "10k" H 10120 3155 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9980 3200 50  0001 C CNN
-F 3 "~" H 10050 3200 50  0001 C CNN
-	1    10050 3200
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	10050 3350 9650 3350
 Connection ~ 9650 3350
@@ -504,7 +361,7 @@ L Device:CP1 C8
 U 1 1 6135F5E3
 P 8450 2150
 F 0 "C8" H 8565 2196 50  0000 L CNN
-F 1 "EEU-FC1H102L" H 8565 2105 50  0000 L CNN
+F 1 "EEU-FC1H102L" H 8050 2400 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 8450 2150 50  0001 C CNN
 F 3 "https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFC1H102L" H 8450 2150 50  0001 C CNN
 F 4 "50V 20% 1000uF" H 8450 2150 50  0001 C CNN "Description"
@@ -547,10 +404,10 @@ F 3 "" H 8450 2300 50  0001 C CNN
 $EndComp
 Connection ~ 8450 2000
 $Comp
-L power:GND #PWR015
+L power:GND #PWR016
 U 1 1 613939E9
 P 9000 2300
-F 0 "#PWR015" H 9000 2050 50  0001 C CNN
+F 0 "#PWR016" H 9000 2050 50  0001 C CNN
 F 1 "GND" H 9005 2127 50  0000 C CNN
 F 2 "" H 9000 2300 50  0001 C CNN
 F 3 "" H 9000 2300 50  0001 C CNN
@@ -583,10 +440,10 @@ $EndComp
 Wire Wire Line
 	2100 2800 2550 2800
 $Comp
-L power:GND #PWR09
+L power:GND #PWR05
 U 1 1 613A1A38
 P 3000 3100
-F 0 "#PWR09" H 3000 2850 50  0001 C CNN
+F 0 "#PWR05" H 3000 2850 50  0001 C CNN
 F 1 "GND" H 3005 2927 50  0000 C CNN
 F 2 "" H 3000 3100 50  0001 C CNN
 F 3 "" H 3000 3100 50  0001 C CNN
@@ -594,22 +451,10 @@ F 3 "" H 3000 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
-U 1 1 613B9108
-P 9450 2150
-F 0 "C11" H 9565 2196 50  0000 L CNN
-F 1 "SR205C104MAATR1" H 9565 2105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9488 2000 50  0001 C CNN
-F 3 "~" H 9450 2150 50  0001 C CNN
-F 4 "0.1uF 50V 20%" H 9450 2150 50  0001 C CNN "Description"
-	1    9450 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR016
+L power:GND #PWR017
 U 1 1 613C55CF
 P 9450 2300
-F 0 "#PWR016" H 9450 2050 50  0001 C CNN
+F 0 "#PWR017" H 9450 2050 50  0001 C CNN
 F 1 "GND" H 9455 2127 50  0000 C CNN
 F 2 "" H 9450 2300 50  0001 C CNN
 F 3 "" H 9450 2300 50  0001 C CNN
@@ -624,15 +469,16 @@ F 0 "C2" H 2665 2996 50  0000 L CNN
 F 1 "C324C106K3R5TA" H 2500 3200 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 2588 2800 50  0001 C CNN
 F 3 "~" H 2550 2950 50  0001 C CNN
+F 4 "10uF 25V 10%" H 2550 2950 50  0001 C CNN "Description"
 	1    2550 2950
 	1    0    0    -1  
 $EndComp
 Connection ~ 2550 2800
 $Comp
-L power:GND #PWR07
+L power:GND #PWR03
 U 1 1 613E3453
 P 2550 3100
-F 0 "#PWR07" H 2550 2850 50  0001 C CNN
+F 0 "#PWR03" H 2550 2850 50  0001 C CNN
 F 1 "GND" H 2555 2927 50  0000 C CNN
 F 2 "" H 2550 3100 50  0001 C CNN
 F 3 "" H 2550 3100 50  0001 C CNN
@@ -640,10 +486,10 @@ F 3 "" H 2550 3100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR08
+L power:GND #PWR04
 U 1 1 6143CBB1
 P 2950 3750
-F 0 "#PWR08" H 2950 3500 50  0001 C CNN
+F 0 "#PWR04" H 2950 3500 50  0001 C CNN
 F 1 "GND" H 2955 3577 50  0000 C CNN
 F 2 "" H 2950 3750 50  0001 C CNN
 F 3 "" H 2950 3750 50  0001 C CNN
@@ -653,26 +499,14 @@ $EndComp
 Wire Wire Line
 	2950 3750 3100 3750
 $Comp
-L Device:CP1 C5
-U 1 1 61459F9D
-P 5050 4150
-F 0 "C5" H 5150 4250 50  0000 L CNN
-F 1 "ECE-A1HN100U" H 5150 4000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5050 4150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1053.pdf" H 5050 4150 50  0001 C CNN
-F 4 "10uF 50V 20%" H 5050 4150 50  0001 C CNN "Description"
-	1    5050 4150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C4
 U 1 1 6145C831
 P 4600 4150
-F 0 "C4" H 4700 4250 50  0000 L CNN
-F 1 "ECE-A1HN100U" H 4350 4000 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4600 4150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1053.pdf" H 4600 4150 50  0001 C CNN
-F 4 "10uF 50V 20%" H 4600 4150 50  0001 C CNN "Description"
+F 0 "C4" H 4450 4050 50  0000 L CNN
+F 1 "ECA-1EM100B" H 4300 4300 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 4600 4150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 4600 4150 50  0001 C CNN
+F 4 "10uF 25V 20%" H 4600 4150 50  0001 C CNN "Description"
 	1    4600 4150
 	-1   0    0    1   
 $EndComp
@@ -683,15 +517,16 @@ P 5050 1400
 F 0 "J3" H 5000 1650 50  0000 C CNN
 F 1 "Amp_Power" H 5000 1550 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 5050 1400 50  0001 C CNN
-F 3 "~" H 5050 1400 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 5050 1400 50  0001 C CNN
+F 4 "277-1667-ND" H 5050 1400 50  0001 C CNN "Digi-Key_PN"
 	1    5050 1400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+15V #PWR011
+L power:+15V #PWR07
 U 1 1 6148353F
 P 5250 1400
-F 0 "#PWR011" H 5250 1250 50  0001 C CNN
+F 0 "#PWR07" H 5250 1250 50  0001 C CNN
 F 1 "+15V" H 5265 1573 50  0000 C CNN
 F 2 "" H 5250 1400 50  0001 C CNN
 F 3 "" H 5250 1400 50  0001 C CNN
@@ -699,10 +534,10 @@ F 3 "" H 5250 1400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR012
+L power:GND #PWR08
 U 1 1 61484532
 P 5250 1500
-F 0 "#PWR012" H 5250 1250 50  0001 C CNN
+F 0 "#PWR08" H 5250 1250 50  0001 C CNN
 F 1 "GND" H 5255 1327 50  0000 C CNN
 F 2 "" H 5250 1500 50  0001 C CNN
 F 3 "" H 5250 1500 50  0001 C CNN
@@ -714,7 +549,7 @@ L Device:C C10
 U 1 1 61492ECF
 P 9000 2150
 F 0 "C10" H 9115 2196 50  0000 L CNN
-F 1 "C324C106K3R5TA" H 9115 2105 50  0000 L CNN
+F 1 "C324C106K3R5TA" H 8700 2400 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9038 2000 50  0001 C CNN
 F 3 "~" H 9000 2150 50  0001 C CNN
 F 4 "10uF 25V 10%" H 9000 2150 50  0001 C CNN "Description"
@@ -733,38 +568,16 @@ L Device:C C3
 U 1 1 614A809C
 P 3000 2950
 F 0 "C3" H 3115 2996 50  0000 L CNN
-F 1 "SR205C104MAATR1" H 3050 2850 50  0000 L CNN
+F 1 "K104Z15Y5VE5TL2" H 3050 2850 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3038 2800 50  0001 C CNN
 F 3 "~" H 3000 2950 50  0001 C CNN
-F 4 "0.1uF 50V 20%" H 3000 2950 50  0001 C CNN "Description"
+F 4 "0.1uF 25V -20%,+80%" H 3000 2950 50  0001 C CNN "Description"
 	1    3000 2950
 	1    0    0    -1  
 $EndComp
 Connection ~ 3000 2800
 Wire Wire Line
 	3000 2800 3600 2800
-$Comp
-L Connector:Screw_Terminal_01x02 J4
-U 1 1 614C15B1
-P 6400 1500
-F 0 "J4" H 6318 1175 50  0000 C CNN
-F 1 "Driver_power" H 6318 1266 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 6400 1500 50  0001 C CNN
-F 3 "~" H 6400 1500 50  0001 C CNN
-	1    6400 1500
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR018
-U 1 1 614CCA5B
-P 6600 1500
-F 0 "#PWR018" H 6600 1250 50  0001 C CNN
-F 1 "GND" H 6605 1327 50  0000 C CNN
-F 2 "" H 6600 1500 50  0001 C CNN
-F 3 "" H 6600 1500 50  0001 C CNN
-	1    6600 1500
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:L L2
 U 1 1 614D4A87
@@ -781,10 +594,10 @@ L Device:C C6
 U 1 1 614DAA49
 P 7450 4100
 F 0 "C6" H 7565 4146 50  0000 L CNN
-F 1 "C324C106K3R5TA" H 7565 4055 50  0000 L CNN
+F 1 "uF" H 7565 4055 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm" H 7488 3950 50  0001 C CNN
 F 3 "~" H 7450 4100 50  0001 C CNN
-F 4 "10uF 25V 10%" H 7450 4100 50  0001 C CNN "Description"
+F 4 "" H 7450 4100 50  0001 C CNN "Description"
 	1    7450 4100
 	1    0    0    -1  
 $EndComp
@@ -793,10 +606,10 @@ L Device:C C9
 U 1 1 614DB54C
 P 8600 4100
 F 0 "C9" H 8715 4146 50  0000 L CNN
-F 1 "C324C106K3R5TA" H 8715 4055 50  0000 L CNN
+F 1 "uF" H 8715 4055 50  0000 L CNN
 F 2 "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm" H 8638 3950 50  0001 C CNN
 F 3 "~" H 8600 4100 50  0001 C CNN
-F 4 "10uF 25V 10%" H 8600 4100 50  0001 C CNN "Description"
+F 4 "" H 8600 4100 50  0001 C CNN "Description"
 	1    8600 4100
 	1    0    0    -1  
 $EndComp
@@ -805,10 +618,10 @@ L Device:C C7
 U 1 1 614DC10B
 P 8000 3300
 F 0 "C7" V 7748 3300 50  0000 C CNN
-F 1 "C324C106K3R5TA" V 7839 3300 50  0000 C CNN
+F 1 "uF" V 7839 3300 50  0000 C CNN
 F 2 "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm" H 8038 3150 50  0001 C CNN
 F 3 "~" H 8000 3300 50  0001 C CNN
-F 4 "10uF 25V 10%" H 8000 3300 50  0001 C CNN "Description"
+F 4 "" H 8000 3300 50  0001 C CNN "Description"
 	1    8000 3300
 	0    1    1    0   
 $EndComp
@@ -829,24 +642,6 @@ Connection ~ 3000 4350
 Wire Wire Line
 	3000 4350 3100 4350
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q1
-U 1 1 613407F4
-P 6500 2900
-F 0 "Q1" H 6608 2953 60  0000 L CNN
-F 1 "IRF530A" H 6608 2847 60  0000 L CNN
-F 2 "digikey-footprints:TO-220-3" H 6700 3100 60  0001 L CNN
-F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 6700 3200 60  0001 L CNN
-F 4 "2156-IRF530A-ND" H 6700 3300 60  0001 L CNN "Digi-Key_PN"
-F 5 "IRF530A" H 6700 3400 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6700 3500 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 6700 3600 60  0001 L CNN "Family"
-F 8 "MOSFET N-CH 100V 14A TO-220AB" H 6700 3900 60  0001 L CNN "Description"
-F 9 "Infineon Technologies" H 6700 4000 60  0001 L CNN "Manufacturer"
-F 10 "Active" H 6700 4100 60  0001 L CNN "Status"
-	1    6500 2900
-	1    0    0    -1  
-$EndComp
-$Comp
 L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q2
 U 1 1 61356BCC
 P 6500 4350
@@ -856,55 +651,16 @@ F 2 "digikey-footprints:TO-220-3" H 6700 4550 60  0001 L CNN
 F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 6700 4650 60  0001 L CNN
 F 4 "2156-IRF530A-ND" H 6700 4750 60  0001 L CNN "Digi-Key_PN"
 F 5 "IRF530A" H 6700 4850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 6700 4950 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 6700 5050 60  0001 L CNN "Family"
-F 8 "MOSFET N-CH 100V 14A TO-220AB" H 6700 5350 60  0001 L CNN "Description"
-F 9 "Infineon Technologies" H 6700 5450 60  0001 L CNN "Manufacturer"
-F 10 "Active" H 6700 5550 60  0001 L CNN "Status"
+F 6 "MOSFET N-CH 100V 14A TO-220AB" H 6700 5350 60  0001 L CNN "Description"
+F 7 "Infineon Technologies" H 6700 5450 60  0001 L CNN "Manufacturer"
 	1    6500 4350
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q4
-U 1 1 61357F57
-P 9650 4350
-F 0 "Q4" H 9757 4403 60  0000 L CNN
-F 1 "IRF530A" H 9757 4297 60  0000 L CNN
-F 2 "digikey-footprints:TO-220-3" H 9850 4550 60  0001 L CNN
-F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 9850 4650 60  0001 L CNN
-F 4 "2156-IRF530A-ND" H 9850 4750 60  0001 L CNN "Digi-Key_PN"
-F 5 "IRF530A" H 9850 4850 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9850 4950 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 9850 5050 60  0001 L CNN "Family"
-F 8 "MOSFET N-CH 100V 14A TO-220AB" H 9850 5350 60  0001 L CNN "Description"
-F 9 "Infineon Technologies" H 9850 5450 60  0001 L CNN "Manufacturer"
-F 10 "Active" H 9850 5550 60  0001 L CNN "Status"
-	1    9650 4350
-	-1   0    0    -1  
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q3
-U 1 1 6136463E
-P 9650 2950
-F 0 "Q3" H 9757 3003 60  0000 L CNN
-F 1 "IRF530A" H 9757 2897 60  0000 L CNN
-F 2 "digikey-footprints:TO-220-3" H 9850 3150 60  0001 L CNN
-F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 9850 3250 60  0001 L CNN
-F 4 "2156-IRF530A-ND" H 9850 3350 60  0001 L CNN "Digi-Key_PN"
-F 5 "IRF530A" H 9850 3450 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9850 3550 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 9850 3650 60  0001 L CNN "Family"
-F 8 "MOSFET N-CH 100V 14A TO-220AB" H 9850 3950 60  0001 L CNN "Description"
-F 9 "Infineon Technologies" H 9850 4050 60  0001 L CNN "Manufacturer"
-F 10 "Active" H 9850 4150 60  0001 L CNN "Status"
-	1    9650 2950
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:+10V #PWR010
+L power:+10V #PWR09
 U 1 1 6136C310
 P 6600 1400
-F 0 "#PWR010" H 6600 1250 50  0001 C CNN
+F 0 "#PWR09" H 6600 1250 50  0001 C CNN
 F 1 "+10V" V 6615 1528 50  0000 L CNN
 F 2 "" H 6600 1400 50  0001 C CNN
 F 3 "" H 6600 1400 50  0001 C CNN
@@ -922,28 +678,6 @@ F 3 "" H 3600 2800 50  0001 C CNN
 	1    3600 2800
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:R R10
-U 1 1 61382D0D
-P 2300 4150
-F 0 "R10" V 2300 4050 50  0000 L CNN
-F 1 "470" V 2250 4300 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 4150 50  0001 C CNN
-F 3 "~" H 2300 4150 50  0001 C CNN
-	1    2300 4150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R11
-U 1 1 61383943
-P 2300 4350
-F 0 "R11" V 2300 4250 50  0000 L CNN
-F 1 "470" V 2250 4500 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 4350 50  0001 C CNN
-F 3 "~" H 2300 4350 50  0001 C CNN
-	1    2300 4350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1800 4150 2150 4150
 Wire Wire Line
@@ -952,14 +686,6 @@ Wire Wire Line
 	1800 4350 2150 4350
 Wire Wire Line
 	2450 4350 3000 4350
-Text Label 6500 3300 0    50   ~ 0
-B_HI
-Text Label 6500 4000 0    50   ~ 0
-B_LO
-Text Label 9650 3250 2    50   ~ 0
-A_HI
-Text Label 9650 4000 2    50   ~ 0
-A_LO
 Text Label 4150 4250 0    50   ~ 0
 BLO
 Text Label 4150 4050 0    50   ~ 0
@@ -973,36 +699,25 @@ Wire Wire Line
 Wire Wire Line
 	3750 1500 4300 1500
 $Comp
-L Connector:TestPoint TP1
-U 1 1 61480284
-P 6150 2750
-F 0 "TP1" H 6208 2868 50  0000 L CNN
-F 1 "TestPoint" H 6208 2777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6350 2750 50  0001 C CNN
-F 3 "~" H 6350 2750 50  0001 C CNN
-	1    6150 2750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP2
 U 1 1 6148304D
-P 6200 4250
-F 0 "TP2" H 6258 4368 50  0000 L CNN
-F 1 "TestPoint" H 6258 4277 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6400 4250 50  0001 C CNN
-F 3 "~" H 6400 4250 50  0001 C CNN
-	1    6200 4250
+P 6200 4000
+F 0 "TP2" H 6258 4118 50  0000 L CNN
+F 1 "TestPoint" H 6258 4027 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6400 4000 50  0001 C CNN
+F 3 "~" H 6400 4000 50  0001 C CNN
+	1    6200 4000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP3
 U 1 1 61492C2E
-P 9950 4250
-F 0 "TP3" H 10008 4368 50  0000 L CNN
-F 1 "TestPoint" H 10008 4277 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10150 4250 50  0001 C CNN
-F 3 "~" H 10150 4250 50  0001 C CNN
-	1    9950 4250
+P 9950 3950
+F 0 "TP3" H 10008 4068 50  0000 L CNN
+F 1 "TestPoint" H 10008 3977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10150 3950 50  0001 C CNN
+F 3 "~" H 10150 3950 50  0001 C CNN
+	1    9950 3950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1010,27 +725,16 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP4
 U 1 1 6148E53F
-P 10050 2850
-F 0 "TP4" H 10108 2968 50  0000 L CNN
-F 1 "TestPoint" H 10108 2877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10250 2850 50  0001 C CNN
-F 3 "~" H 10250 2850 50  0001 C CNN
-	1    10050 2850
+P 10050 2500
+F 0 "TP4" H 10108 2618 50  0000 L CNN
+F 1 "TestPoint" H 10108 2527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 10250 2500 50  0001 C CNN
+F 3 "~" H 10250 2500 50  0001 C CNN
+	1    10050 2500
 	1    0    0    -1  
 $EndComp
-Connection ~ 10300 4250
-Connection ~ 6150 2750
-Connection ~ 6200 4250
-Connection ~ 5400 3950
-Wire Wire Line
-	5400 3950 5700 3950
-Wire Wire Line
-	4350 3950 5400 3950
-Connection ~ 5900 4450
 Wire Wire Line
 	4300 4450 5900 4450
-Connection ~ 9950 4250
-Connection ~ 10050 2850
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 61545B32
@@ -1074,5 +778,312 @@ F 2 "MountingHole:MountingHole_4.3mm_M4" H 3600 7000 50  0001 C CNN
 F 3 "~" H 3600 7000 50  0001 C CNN
 	1    3600 7000
 	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 3950 5700 3950
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q3
+U 1 1 61314458
+P 9650 2950
+F 0 "Q3" H 9758 3003 60  0000 L CNN
+F 1 "IRF530A" H 9758 2897 60  0000 L CNN
+F 2 "digikey-footprints:TO-220-3" H 9850 3150 60  0001 L CNN
+F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 9850 3250 60  0001 L CNN
+F 4 "2156-IRF530A-ND" H 9850 3350 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRF530A" H 9850 3450 60  0001 L CNN "MPN"
+F 6 "MOSFET N-CH 100V 14A TO-220AB" H 9850 3950 60  0001 L CNN "Description"
+F 7 "Infineon Technologies" H 9850 4050 60  0001 L CNN "Manufacturer"
+	1    9650 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q4
+U 1 1 6132015F
+P 9650 4350
+F 0 "Q4" H 9758 4403 60  0000 L CNN
+F 1 "IRF530A" H 9758 4297 60  0000 L CNN
+F 2 "digikey-footprints:TO-220-3" H 9850 4550 60  0001 L CNN
+F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 9850 4650 60  0001 L CNN
+F 4 "2156-IRF530A-ND" H 9850 4750 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRF530A" H 9850 4850 60  0001 L CNN "MPN"
+F 6 "MOSFET N-CH 100V 14A TO-220AB" H 9850 5350 60  0001 L CNN "Description"
+F 7 "Infineon Technologies" H 9850 5450 60  0001 L CNN "Manufacturer"
+	1    9650 4350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 6132CE92
+P 9450 2150
+F 0 "C11" H 9565 2196 50  0000 L CNN
+F 1 "K104Z15Y5VE5TL2" H 9450 2400 50  0000 L CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9488 2000 50  0001 C CNN
+F 3 "~" H 9450 2150 50  0001 C CNN
+F 4 "0.1uF 25V -20%,+80%" H 9450 2150 50  0001 C CNN "Description"
+	1    9450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C5
+U 1 1 613392DD
+P 5050 4150
+F 0 "C5" H 5150 4250 50  0000 L CNN
+F 1 "ECA-1EM100B" H 5100 4000 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 5050 4150 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ECA-xxM%20Series,TypeA.pdf" H 5050 4150 50  0001 C CNN
+F 4 "10uF 25V 20%" H 5050 4150 50  0001 C CNN "Description"
+	1    5050 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6136DCD3
+P 6050 4450
+F 0 "R3" V 6050 4350 50  0000 L CNN
+F 1 "CFR-25JR-52-100R" V 6150 3700 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5980 4450 50  0001 C CNN
+F 3 "~" H 6050 4450 50  0001 C CNN
+F 4 "100 ohm 5% 1/4W" V 6050 4450 50  0001 C CNN "Description"
+	1    6050 4450
+	0    1    1    0   
+$EndComp
+Connection ~ 5900 4450
+Wire Wire Line
+	10300 4250 10300 4450
+$Comp
+L Device:R R8
+U 1 1 6137D2BE
+P 10150 4450
+F 0 "R8" V 10150 4350 50  0000 L CNN
+F 1 "CFR-25JR-52-100R" V 10250 4350 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10080 4450 50  0001 C CNN
+F 3 "~" H 10150 4450 50  0001 C CNN
+F 4 "100 ohm 5% 1/4W" V 10150 4450 50  0001 C CNN "Description"
+	1    10150 4450
+	0    1    1    0   
+$EndComp
+Connection ~ 10300 4450
+Wire Wire Line
+	10300 4450 10300 4850
+$Comp
+L Device:R R9
+U 1 1 6137DDA9
+P 10200 3050
+F 0 "R9" V 10200 2950 50  0000 L CNN
+F 1 "CFR-25JR-52-100R" V 10300 3050 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10130 3050 50  0001 C CNN
+F 3 "~" H 10200 3050 50  0001 C CNN
+F 4 "100 ohm 5% 1/4W" V 10200 3050 50  0001 C CNN "Description"
+	1    10200 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6138163D
+P 6150 3350
+F 0 "R4" H 5950 3400 50  0000 L CNN
+F 1 "CFR50SJT-52-10K" H 6250 3300 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6080 3350 50  0001 C CNN
+F 3 "~" H 6150 3350 50  0001 C CNN
+F 4 "10k ohm 5% 1/4W" H 6150 3350 50  0001 C CNN "Description"
+	1    6150 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Diode:1N4148 D2
+U 1 1 6139C18F
+P 4000 3150
+F 0 "D2" H 4000 2933 50  0000 C CNN
+F 1 "1N4148" H 4000 3024 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4000 2975 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4000 3150 50  0001 C CNN
+F 4 "1N4148FS-ND" H 4000 3150 50  0001 C CNN "Digi-Key_PN"
+F 5 "100V 200mA " H 4000 3150 50  0001 C CNN "Description"
+	1    4000 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6200 4000 6200 4250
+$Comp
+L Diode:1N4148 D4
+U 1 1 613A84CA
+P 6050 4250
+F 0 "D4" H 6050 4500 50  0000 C CNN
+F 1 "1N4148" H 6050 4400 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6050 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 6050 4250 50  0001 C CNN
+F 4 "1N4148FS-ND" H 6050 4250 50  0001 C CNN "Digi-Key_PN"
+F 5 "100V 200mA " H 6050 4250 50  0001 C CNN "Description"
+	1    6050 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 6200 4250
+Wire Wire Line
+	6200 4250 6200 4450
+Wire Wire Line
+	9950 3950 9950 4250
+Wire Wire Line
+	10050 2500 10050 2850
+$Comp
+L Diode:1N4148 D6
+U 1 1 613A9AFA
+P 10200 2850
+F 0 "D6" H 10200 2633 50  0000 C CNN
+F 1 "1N4148" H 10200 2724 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10200 2675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10200 2850 50  0001 C CNN
+F 4 "1N4148FS-ND" H 10200 2850 50  0001 C CNN "Digi-Key_PN"
+F 5 "100V 200mA " H 10200 2850 50  0001 C CNN "Description"
+	1    10200 2850
+	-1   0    0    1   
+$EndComp
+Connection ~ 10050 2850
+Wire Wire Line
+	10050 2850 10050 3050
+$Comp
+L Diode:1N4148 D5
+U 1 1 613AB023
+P 10100 4250
+F 0 "D5" H 10100 4033 50  0000 C CNN
+F 1 "1N4148" H 10100 4124 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10100 4075 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 10100 4250 50  0001 C CNN
+F 4 "1N4148FS-ND" H 10100 4250 50  0001 C CNN "Digi-Key_PN"
+F 5 "100V 200mA " H 10100 4250 50  0001 C CNN "Description"
+	1    10100 4250
+	-1   0    0    1   
+$EndComp
+Connection ~ 9950 4250
+Wire Wire Line
+	9950 4250 9950 4450
+$Comp
+L Connector:Screw_Terminal_01x02 J4
+U 1 1 614C15B1
+P 6400 1500
+F 0 "J4" H 6318 1175 50  0000 C CNN
+F 1 "Driver_power" H 6318 1266 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 6400 1500 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 6400 1500 50  0001 C CNN
+F 4 "277-1667-ND" H 6400 1500 50  0001 C CNN "Digi-Key_PN"
+	1    6400 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 613EB9C4
+P 6200 4600
+F 0 "R5" H 6000 4650 50  0000 L CNN
+F 1 "CFR50SJT-52-10K" H 6300 4700 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 6130 4600 50  0001 C CNN
+F 3 "~" H 6200 4600 50  0001 C CNN
+F 4 "10k ohm 5% 1/4W" H 6200 4600 50  0001 C CNN "Description"
+	1    6200 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 613F21E5
+P 9950 4600
+F 0 "R6" H 9750 4650 50  0000 L CNN
+F 1 "CFR50SJT-52-10K" H 10050 4700 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9880 4600 50  0001 C CNN
+F 3 "~" H 9950 4600 50  0001 C CNN
+F 4 "10k ohm 5% 1/4W" H 9950 4600 50  0001 C CNN "Description"
+	1    9950 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 613F2DBC
+P 10050 3200
+F 0 "R7" H 9850 3250 50  0000 L CNN
+F 1 "CFR50SJT-52-10K" H 10150 3300 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9980 3200 50  0001 C CNN
+F 3 "~" H 10050 3200 50  0001 C CNN
+F 4 "10k ohm 5% 1/4W" H 10050 3200 50  0001 C CNN "Description"
+	1    10050 3200
+	-1   0    0    1   
+$EndComp
+Connection ~ 8000 2700
+$Comp
+L Diode:1N4148 D3
+U 1 1 6139CD91
+P 5950 2750
+F 0 "D3" H 5950 3000 50  0000 C CNN
+F 1 "1N4148" H 5950 2900 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5950 2575 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5950 2750 50  0001 C CNN
+F 4 "1N4148FS-ND" H 5950 2750 50  0001 C CNN "Digi-Key_PN"
+F 5 "100V 200mA " H 5950 2750 50  0001 C CNN "Description"
+	1    5950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q1
+U 1 1 613134AB
+P 6500 2900
+F 0 "Q1" H 6608 2953 60  0000 L CNN
+F 1 "IRF530A" H 6608 2847 60  0000 L CNN
+F 2 "digikey-footprints:TO-220-3" H 6700 3100 60  0001 L CNN
+F 3 "https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&u=5oefqw" H 6700 3200 60  0001 L CNN
+F 4 "2156-IRF530A-ND" H 6700 3300 60  0001 L CNN "Digi-Key_PN"
+F 5 "IRF530A" H 6700 3400 60  0001 L CNN "MPN"
+F 6 "MOSFET N-CH 100V 14A TO-220AB" H 6700 3900 60  0001 L CNN "Description"
+F 7 "Infineon Technologies" H 6700 4000 60  0001 L CNN "Manufacturer"
+	1    6500 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 2750
+$Comp
+L Connector:TestPoint TP1
+U 1 1 61480284
+P 6150 2750
+F 0 "TP1" H 6208 2868 50  0000 L CNN
+F 1 "TestPoint" H 6208 2777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm" H 6350 2750 50  0001 C CNN
+F 3 "~" H 6350 2750 50  0001 C CNN
+	1    6150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 614CCA5B
+P 6600 1500
+F 0 "#PWR010" H 6600 1250 50  0001 C CNN
+F 1 "GND" H 6605 1327 50  0000 C CNN
+F 2 "" H 6600 1500 50  0001 C CNN
+F 3 "" H 6600 1500 50  0001 C CNN
+	1    6600 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 2750 6150 3000
+Wire Wire Line
+	6100 2750 6150 2750
+Wire Wire Line
+	6500 2700 8000 2700
+$Comp
+L Device:R R11
+U 1 1 61383943
+P 2300 4350
+F 0 "R11" V 2300 4250 50  0000 L CNN
+F 1 "CFR-25JB-52-470R" V 2200 4200 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 4350 50  0001 C CNN
+F 3 "~" H 2300 4350 50  0001 C CNN
+F 4 "470 ohm 5% 1/4W" V 2300 4350 50  0001 C CNN "Description"
+	1    2300 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 61310DCE
+P 2300 4150
+F 0 "R10" V 2300 4050 50  0000 L CNN
+F 1 "CFR-25JB-52-470R" V 2200 4000 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2230 4150 50  0001 C CNN
+F 3 "~" H 2300 4150 50  0001 C CNN
+F 4 "470 ohm 5% 1/4W" V 2300 4150 50  0001 C CNN "Description"
+	1    2300 4150
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
