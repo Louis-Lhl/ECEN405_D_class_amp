@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\69134\My Drive\ECEN405\ECEN405_D_class_amp\schematic\power\power_ver_2.0\power_ver_2.0.sch</source>
+    <date>02/09/2021 14:44:02</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>power_ver_2.0.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>HIP4082IP</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm</footprint>
+      <datasheet>https://www.renesas.com/www/doc/datasheet/hip4082.pdf</datasheet>
+      <libsource lib="Driver_FET" part="HIP4082xP" description="80V, 1.25A Peak Current H-Bridge FET Driver, DIP-16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612DF857</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>PWM INPUT</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612E2854</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1K</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612EB372</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>2216-V-RC</value>
+      <footprint>Inductor_THT:L_Toroid_Vertical_L24.6mm_W15.5mm_P11.44mm_Pulse_KM-4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61319407</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Audio OUTPUT</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613223B2</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612E3B0A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612EACE2</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612EB5B6</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612EC006</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612EC8FD</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612EE942</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612F4530</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>612FCBF5</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6132CB77</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61333563</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61340288</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6134411E</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1N4148</value>
+      <footprint>Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6134CCE7</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613536A8</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>EEU-FC1H102L</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>https://industrial.panasonic.com/ww/products/pt/aluminum-cap-lead/models/EEUFC1H102L</datasheet>
+      <fields>
+        <field name="Description">50V 20% 1000uF</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6135F5E3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>ECE-A1HN101U</value>
+      <footprint>Capacitor_THT:CP_Radial_D10.0mm_P5.00mm</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1053.pdf</datasheet>
+      <fields>
+        <field name="Description">100uF 50V 20%</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613A1A23</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>SR205C104MAATR1</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.1uF 50V 20%</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613B9108</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>C324C106K3R5TA</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613E2E91</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>ECE-A1HN100U</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1053.pdf</datasheet>
+      <fields>
+        <field name="Description">10uF 50V 20%</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61459F9D</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>ECE-A1HN100U</value>
+      <footprint>Capacitor_THT:CP_Radial_D6.3mm_P2.50mm</footprint>
+      <datasheet>https://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1053.pdf</datasheet>
+      <fields>
+        <field name="Description">10uF 50V 20%</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6145C831</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Amp_Power</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61482427</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C324C106K3R5TA</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10uF 25V 10%</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61492ECF</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>SR205C104MAATR1</value>
+      <footprint>Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">0.1uF 50V 20%</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614A809C</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Driver_power</value>
+      <footprint>TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614C15B1</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>2216-V-RC</value>
+      <footprint>Inductor_THT:L_Toroid_Vertical_L24.6mm_W15.5mm_P11.44mm_Pulse_KM-4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614D4A87</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C324C106K3R5TA</value>
+      <footprint>Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10uF 25V 10%</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DAA49</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C324C106K3R5TA</value>
+      <footprint>Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10uF 25V 10%</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DB54C</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C324C106K3R5TA</value>
+      <footprint>Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Description">10uF 25V 10%</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>614DC10B</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF530A</value>
+      <footprint>digikey-footprints:TO-220-3</footprint>
+      <datasheet>https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&amp;u=5oefqw</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Description">MOSFET N-CH 100V 14A TO-220AB</field>
+        <field name="Digi-Key_PN">2156-IRF530A-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">IRF530A</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="IRF540NPBF" description="MOSFET N-CH 100V 33A TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>613407F4</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF530A</value>
+      <footprint>digikey-footprints:TO-220-3</footprint>
+      <datasheet>https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&amp;u=5oefqw</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Description">MOSFET N-CH 100V 14A TO-220AB</field>
+        <field name="Digi-Key_PN">2156-IRF530A-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">IRF530A</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="IRF540NPBF" description="MOSFET N-CH 100V 33A TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61356BCC</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>IRF530A</value>
+      <footprint>digikey-footprints:TO-220-3</footprint>
+      <datasheet>https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&amp;u=5oefqw</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Description">MOSFET N-CH 100V 14A TO-220AB</field>
+        <field name="Digi-Key_PN">2156-IRF530A-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">IRF530A</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="IRF540NPBF" description="MOSFET N-CH 100V 33A TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61357F57</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>IRF530A</value>
+      <footprint>digikey-footprints:TO-220-3</footprint>
+      <datasheet>https://rocelec.widen.net/view/pdf/wku7npczbd/FAIRS05939-1.pdf?t.download=true&amp;u=5oefqw</datasheet>
+      <fields>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Description">MOSFET N-CH 100V 14A TO-220AB</field>
+        <field name="Digi-Key_PN">2156-IRF530A-ND</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="MPN">IRF530A</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Transistors-FETs-MOSFETs-Single" part="IRF540NPBF" description="MOSFET N-CH 100V 33A TO-220AB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6136463E</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61382D0D</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61383943</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61480284</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148304D</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61492C2E</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6148E53F</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61545B32</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61546C2A</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61547715</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_4.3mm_M4</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61547A96</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <aliases>
+        <alias>1N4448</alias>
+        <alias>1N4149</alias>
+        <alias>1N4151</alias>
+        <alias>1N914</alias>
+        <alias>BA243</alias>
+        <alias>BA244</alias>
+        <alias>BA282</alias>
+        <alias>BA283</alias>
+        <alias>BAV17</alias>
+        <alias>BAV18</alias>
+        <alias>BAV19</alias>
+        <alias>BAV20</alias>
+        <alias>BAV21</alias>
+        <alias>BAW75</alias>
+        <alias>BAW76</alias>
+        <alias>BAY93</alias>
+      </aliases>
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Driver_FET" part="HIP4082xP">
+      <description>80V, 1.25A Peak Current H-Bridge FET Driver, DIP-16</description>
+      <docs>https://www.renesas.com/www/doc/datasheet/hip4082.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HIP4082xP</field>
+        <field name="Footprint">Package_DIP:DIP-16_W7.62mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="BHB" type="input"/>
+        <pin num="2" name="BHI" type="input"/>
+        <pin num="3" name="BLI" type="input"/>
+        <pin num="4" name="ALI" type="input"/>
+        <pin num="5" name="DEL" type="passive"/>
+        <pin num="6" name="VSS" type="power_in"/>
+        <pin num="7" name="AHI" type="input"/>
+        <pin num="8" name="DIS" type="input"/>
+        <pin num="9" name="AHB" type="input"/>
+        <pin num="10" name="AHO" type="output"/>
+        <pin num="11" name="AHS" type="passive"/>
+        <pin num="12" name="VDD" type="power_in"/>
+        <pin num="13" name="ALO" type="output"/>
+        <pin num="14" name="BLO" type="output"/>
+        <pin num="15" name="BHS" type="passive"/>
+        <pin num="16" name="BHO" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="dk_Transistors-FETs-MOSFETs-Single" part="IRF540NPBF">
+      <description>MOSFET N-CH 100V 33A TO-220AB</description>
+      <docs>https://www.infineon.com/dgdl/irf540npbf.pdf?fileId=5546d462533600a4015355e39f0d19a1</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF540NPBF</field>
+        <field name="Footprint">digikey-footprints:TO-220-3</field>
+        <field name="Datasheet">https://www.infineon.com/dgdl/irf540npbf.pdf?fileId=5546d462533600a4015355e39f0d19a1</field>
+        <field name="Digi-Key_PN">IRF540NPBF-ND</field>
+        <field name="MPN">IRF540NPBF</field>
+        <field name="Category">Discrete Semiconductor Products</field>
+        <field name="Family">Transistors - FETs, MOSFETs - Single</field>
+        <field name="DK_Datasheet_Link">https://www.infineon.com/dgdl/irf540npbf.pdf?fileId=5546d462533600a4015355e39f0d19a1</field>
+        <field name="DK_Detail_Page">/product-detail/en/infineon-technologies/IRF540NPBF/IRF540NPBF-ND/811869</field>
+        <field name="Description">MOSFET N-CH 100V 33A TO-220AB</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="BiDi"/>
+        <pin num="2" name="D" type="BiDi"/>
+        <pin num="3" name="S" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Diode.lib</uri>
+    </library>
+    <library logical="Driver_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Driver_FET.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="dk_Transistors-FETs-MOSFETs-Single">
+      <uri>C:/Users/69134/Documents/Kicad_Library/digikey-kicad-library-master/digikey-symbols/dk_Transistors-FETs-MOSFETs-Single.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="Q4" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="2" name="+15V">
+      <node ref="Q3" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="4" name="PWM-">
+      <node ref="R10" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="5" name="Net-(D6-Pad2)">
+      <node ref="R7" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="TP4" pin="1"/>
+    </net>
+    <net code="6" name="/BLO">
+      <node ref="D4" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="7" name="Net-(D4-Pad2)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="8" name="Out+">
+      <node ref="J2" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="9" name="Net-(R11-Pad1)">
+      <node ref="U1" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="10" name="Net-(R10-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="11" name="Out-">
+      <node ref="L2" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C7" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C4-Pad2)">
+      <node ref="U1" pin="9"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="13" name="PWM+">
+      <node ref="R11" pin="2"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D5-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="16" name="/B_HI">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="C5" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="17" name="/ALO">
+      <node ref="R8" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="18" name="/AHO">
+      <node ref="R9" pin="1"/>
+      <node ref="U1" pin="10"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="19" name="/BHO">
+      <node ref="U1" pin="16"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D3-Pad2)">
+      <node ref="Q1" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="21" name="/A_HI">
+      <node ref="C4" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="U1" pin="11"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="22" name="+10V">
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C3" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J4" pin="2"/>
+    </net>
+  </nets>
+</export>

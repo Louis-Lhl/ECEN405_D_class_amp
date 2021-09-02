@@ -599,7 +599,7 @@ U 1 1 613B9108
 P 9450 2150
 F 0 "C11" H 9565 2196 50  0000 L CNN
 F 1 "SR205C104MAATR1" H 9565 2105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 9488 2000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9488 2000 50  0001 C CNN
 F 3 "~" H 9450 2150 50  0001 C CNN
 F 4 "0.1uF 50V 20%" H 9450 2150 50  0001 C CNN "Description"
 	1    9450 2150
@@ -622,7 +622,7 @@ U 1 1 613E2E91
 P 2550 2950
 F 0 "C2" H 2665 2996 50  0000 L CNN
 F 1 "C324C106K3R5TA" H 2500 3200 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 2588 2800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 2588 2800 50  0001 C CNN
 F 3 "~" H 2550 2950 50  0001 C CNN
 	1    2550 2950
 	1    0    0    -1  
@@ -715,7 +715,7 @@ U 1 1 61492ECF
 P 9000 2150
 F 0 "C10" H 9115 2196 50  0000 L CNN
 F 1 "C324C106K3R5TA" H 9115 2105 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 9038 2000 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 9038 2000 50  0001 C CNN
 F 3 "~" H 9000 2150 50  0001 C CNN
 F 4 "10uF 25V 10%" H 9000 2150 50  0001 C CNN "Description"
 	1    9000 2150
@@ -734,7 +734,7 @@ U 1 1 614A809C
 P 3000 2950
 F 0 "C3" H 3115 2996 50  0000 L CNN
 F 1 "SR205C104MAATR1" H 3050 2850 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm" H 3038 2800 50  0001 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.8mm_W2.6mm_P2.50mm" H 3038 2800 50  0001 C CNN
 F 3 "~" H 3000 2950 50  0001 C CNN
 F 4 "0.1uF 50V 20%" H 3000 2950 50  0001 C CNN "Description"
 	1    3000 2950
@@ -1018,24 +1018,18 @@ F 3 "~" H 10250 2850 50  0001 C CNN
 	1    10050 2850
 	1    0    0    -1  
 $EndComp
-Connection ~ 10300 4250
 Connection ~ 6150 2750
 Connection ~ 6200 4250
-Connection ~ 5400 3950
-Wire Wire Line
-	5400 3950 5700 3950
-Wire Wire Line
-	4350 3950 5400 3950
 Connection ~ 5900 4450
 Wire Wire Line
 	4300 4450 5900 4450
 Connection ~ 9950 4250
 Connection ~ 10050 2850
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H1
 U 1 1 61545B32
 P 1150 7000
-F 0 "H?" H 1250 7046 50  0000 L CNN
+F 0 "H1" H 1250 7046 50  0000 L CNN
 F 1 "MountingHole" H 1250 6955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4" H 1150 7000 50  0001 C CNN
 F 3 "~" H 1150 7000 50  0001 C CNN
@@ -1043,10 +1037,10 @@ F 3 "~" H 1150 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H2
 U 1 1 61546C2A
 P 2000 7000
-F 0 "H?" H 2100 7046 50  0000 L CNN
+F 0 "H2" H 2100 7046 50  0000 L CNN
 F 1 "MountingHole" H 2100 6955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4" H 2000 7000 50  0001 C CNN
 F 3 "~" H 2000 7000 50  0001 C CNN
@@ -1054,10 +1048,10 @@ F 3 "~" H 2000 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H3
 U 1 1 61547715
 P 2800 7000
-F 0 "H?" H 2900 7046 50  0000 L CNN
+F 0 "H3" H 2900 7046 50  0000 L CNN
 F 1 "MountingHole" H 2900 6955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4" H 2800 7000 50  0001 C CNN
 F 3 "~" H 2800 7000 50  0001 C CNN
@@ -1065,14 +1059,16 @@ F 3 "~" H 2800 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H4
 U 1 1 61547A96
 P 3600 7000
-F 0 "H?" H 3700 7046 50  0000 L CNN
+F 0 "H4" H 3700 7046 50  0000 L CNN
 F 1 "MountingHole" H 3700 6955 50  0000 L CNN
 F 2 "MountingHole:MountingHole_4.3mm_M4" H 3600 7000 50  0001 C CNN
 F 3 "~" H 3600 7000 50  0001 C CNN
 	1    3600 7000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	4350 3950 5700 3950
 $EndSCHEMATC
