@@ -22,29 +22,10 @@ F 1 "HIP4082IP" H 3600 4840 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 3700 4900 50  0001 L CNN
 F 3 "https://www.renesas.com/www/doc/datasheet/hip4082.pdf" H 3700 4900 50  0001 C CNN
 F 4 "Full bridge gate driver" H 3600 4150 50  0001 C CNN "Description"
+F 5 "2156-HIP4082IP-IL-ND" H 3600 4150 50  0001 C CNN "Digi-Key_PN"
 	1    3600 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Screw_Terminal_01x02 J1
-U 1 1 612E2854
-P 1600 1500
-F 0 "J1" H 1518 1175 50  0000 C CNN
-F 1 "PWM INPUT" H 1518 1266 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 1600 1500 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 1600 1500 50  0001 C CNN
-F 4 "277-1667-ND" H 1600 1500 50  0001 C CNN "Digi-Key_PN"
-	1    1600 1500
-	-1   0    0    1   
-$EndComp
-Text GLabel 2300 1400 2    50   Output ~ 0
-PWM+
-Wire Wire Line
-	1800 1400 2300 1400
-Text GLabel 2300 1500 2    50   Output ~ 0
-PWM-
-Wire Wire Line
-	1800 1500 2300 1500
 Text GLabel 1800 4350 0    50   Input ~ 0
 PWM+
 $Comp
@@ -92,75 +73,12 @@ Wire Wire Line
 	6500 3100 6500 3500
 Wire Wire Line
 	9650 3150 9650 3350
-$Comp
-L Device:L L1
-U 1 1 61319407
-P 7100 3750
-F 0 "L1" V 7290 3750 50  0000 C CNN
-F 1 "2216-V-RC" V 7199 3750 50  0000 C CNN
-F 2 "Inductor_THT:L_Toroid_Vertical_L24.6mm_W15.5mm_P11.44mm_Pulse_KM-4" H 7100 3750 50  0001 C CNN
-F 3 "~" H 7100 3750 50  0001 C CNN
-	1    7100 3750
-	0    -1   -1   0   
-$EndComp
 Connection ~ 6500 3750
 Wire Wire Line
 	6500 3750 6500 4150
-Wire Wire Line
-	7600 3750 7600 3300
-Wire Wire Line
-	8400 3300 8400 3750
-Wire Wire Line
-	9050 3750 9650 3750
 Connection ~ 9650 3750
 Wire Wire Line
 	9650 3750 9650 4150
-$Comp
-L power:GND #PWR011
-U 1 1 6131F4E5
-P 7450 4400
-F 0 "#PWR011" H 7450 4150 50  0001 C CNN
-F 1 "GND" H 7455 4227 50  0000 C CNN
-F 2 "" H 7450 4400 50  0001 C CNN
-F 3 "" H 7450 4400 50  0001 C CNN
-	1    7450 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 4400 7450 4250
-$Comp
-L power:GND #PWR015
-U 1 1 6132039F
-P 8600 4400
-F 0 "#PWR015" H 8600 4150 50  0001 C CNN
-F 1 "GND" H 8605 4227 50  0000 C CNN
-F 2 "" H 8600 4400 50  0001 C CNN
-F 3 "" H 8600 4400 50  0001 C CNN
-	1    8600 4400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8600 4400 8600 4250
-Text GLabel 7700 3750 2    50   Output ~ 0
-Out+
-Text GLabel 8300 3750 0    50   Output ~ 0
-Out-
-$Comp
-L Connector:Screw_Terminal_01x02 J2
-U 1 1 613223B2
-P 3550 1500
-F 0 "J2" H 3468 1175 50  0000 C CNN
-F 1 "Audio OUTPUT" H 3468 1266 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 3550 1500 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 3550 1500 50  0001 C CNN
-F 4 "277-1667-ND" H 3550 1500 50  0001 C CNN "Digi-Key_PN"
-	1    3550 1500
-	-1   0    0    1   
-$EndComp
-Text GLabel 4300 1400 2    50   Input ~ 0
-Out+
-Text GLabel 4300 1500 2    50   Input ~ 0
-Out-
 Wire Wire Line
 	4350 4150 4350 4400
 Wire Wire Line
@@ -263,12 +181,6 @@ Wire Wire Line
 	6500 3750 6950 3750
 Wire Wire Line
 	9650 3750 10400 3750
-Wire Wire Line
-	8300 3750 8400 3750
-Connection ~ 8400 3750
-Wire Wire Line
-	7600 3750 7700 3750
-Connection ~ 7600 3750
 Connection ~ 3600 2800
 Wire Wire Line
 	3600 2800 3850 2800
@@ -368,24 +280,6 @@ F 4 "50V 20% 1000uF" H 8450 2150 50  0001 C CNN "Description"
 	1    8450 2150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7250 3750 7450 3750
-Wire Wire Line
-	7450 3950 7450 3750
-Connection ~ 7450 3750
-Wire Wire Line
-	7450 3750 7600 3750
-Wire Wire Line
-	8600 3950 8600 3750
-Wire Wire Line
-	8400 3750 8600 3750
-Connection ~ 8600 3750
-Wire Wire Line
-	8600 3750 8750 3750
-Wire Wire Line
-	7600 3300 7850 3300
-Wire Wire Line
-	8150 3300 8400 3300
 Wire Wire Line
 	8000 2000 8450 2000
 Connection ~ 8000 2000
@@ -516,7 +410,7 @@ U 1 1 61482427
 P 5050 1400
 F 0 "J3" H 5000 1650 50  0000 C CNN
 F 1 "Amp_Power" H 5000 1550 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 5050 1400 50  0001 C CNN
+F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 5050 1400 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 5050 1400 50  0001 C CNN
 F 4 "277-1667-ND" H 5050 1400 50  0001 C CNN "Digi-Key_PN"
 	1    5050 1400
@@ -578,53 +472,6 @@ $EndComp
 Connection ~ 3000 2800
 Wire Wire Line
 	3000 2800 3600 2800
-$Comp
-L Device:L L2
-U 1 1 614D4A87
-P 8900 3750
-F 0 "L2" V 9090 3750 50  0000 C CNN
-F 1 "2216-V-RC" V 8999 3750 50  0000 C CNN
-F 2 "Inductor_THT:L_Toroid_Vertical_L24.6mm_W15.5mm_P11.44mm_Pulse_KM-4" H 8900 3750 50  0001 C CNN
-F 3 "~" H 8900 3750 50  0001 C CNN
-	1    8900 3750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:C C6
-U 1 1 614DAA49
-P 7450 4100
-F 0 "C6" H 7565 4146 50  0000 L CNN
-F 1 "uF" H 7565 4055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm" H 7488 3950 50  0001 C CNN
-F 3 "~" H 7450 4100 50  0001 C CNN
-F 4 "" H 7450 4100 50  0001 C CNN "Description"
-	1    7450 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C9
-U 1 1 614DB54C
-P 8600 4100
-F 0 "C9" H 8715 4146 50  0000 L CNN
-F 1 "uF" H 8715 4055 50  0000 L CNN
-F 2 "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm" H 8638 3950 50  0001 C CNN
-F 3 "~" H 8600 4100 50  0001 C CNN
-F 4 "" H 8600 4100 50  0001 C CNN "Description"
-	1    8600 4100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 614DC10B
-P 8000 3300
-F 0 "C7" V 7748 3300 50  0000 C CNN
-F 1 "uF" V 7839 3300 50  0000 C CNN
-F 2 "Capacitor_THT:C_Radial_D10.0mm_H12.5mm_P5.00mm" H 8038 3150 50  0001 C CNN
-F 3 "~" H 8000 3300 50  0001 C CNN
-F 4 "" H 8000 3300 50  0001 C CNN "Description"
-	1    8000 3300
-	0    1    1    0   
-$EndComp
 Text GLabel 1800 4150 0    50   Input ~ 0
 PWM-
 Wire Wire Line
@@ -657,17 +504,6 @@ F 7 "Infineon Technologies" H 6700 5450 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+10V #PWR09
-U 1 1 6136C310
-P 6600 1400
-F 0 "#PWR09" H 6600 1250 50  0001 C CNN
-F 1 "+10V" V 6615 1528 50  0000 L CNN
-F 2 "" H 6600 1400 50  0001 C CNN
-F 3 "" H 6600 1400 50  0001 C CNN
-	1    6600 1400
-	0    1    1    0   
-$EndComp
-$Comp
 L power:+10V #PWR06
 U 1 1 6136ECB5
 P 3600 2800
@@ -694,10 +530,6 @@ Text Label 4150 4450 0    50   ~ 0
 ALO
 Text Label 4150 5050 0    50   ~ 0
 AHO
-Wire Wire Line
-	3750 1400 4300 1400
-Wire Wire Line
-	3750 1500 4300 1500
 $Comp
 L Connector:TestPoint TP2
 U 1 1 6148304D
@@ -957,18 +789,6 @@ Connection ~ 9950 4250
 Wire Wire Line
 	9950 4250 9950 4450
 $Comp
-L Connector:Screw_Terminal_01x02 J4
-U 1 1 614C15B1
-P 6400 1500
-F 0 "J4" H 6318 1175 50  0000 C CNN
-F 1 "Driver_power" H 6318 1266 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm" H 6400 1500 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 6400 1500 50  0001 C CNN
-F 4 "277-1667-ND" H 6400 1500 50  0001 C CNN "Digi-Key_PN"
-	1    6400 1500
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:R R5
 U 1 1 613EB9C4
 P 6200 4600
@@ -1045,17 +865,6 @@ F 3 "~" H 6350 2750 50  0001 C CNN
 	1    6150 2750
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR010
-U 1 1 614CCA5B
-P 6600 1500
-F 0 "#PWR010" H 6600 1250 50  0001 C CNN
-F 1 "GND" H 6605 1327 50  0000 C CNN
-F 2 "" H 6600 1500 50  0001 C CNN
-F 3 "" H 6600 1500 50  0001 C CNN
-	1    6600 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6150 2750 6150 3000
 Wire Wire Line
@@ -1086,4 +895,10 @@ F 4 "470 ohm 5% 1/4W" V 2300 4150 50  0001 C CNN "Description"
 	1    2300 4150
 	0    1    1    0   
 $EndComp
+Text GLabel 6950 3750 2    50   Input ~ 0
+OUT+
+Text GLabel 9150 3750 0    50   Input ~ 0
+OUT-
+Wire Wire Line
+	9150 3750 9650 3750
 $EndSCHEMATC

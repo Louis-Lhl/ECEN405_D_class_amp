@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C4AQLBW6130A3NK
+D Film Capacitors 500V 130uF LS=52.5mm 10% AEC-Q200
+K
+F https://content.kemet.com/datasheets/F3303_C4A.pdf
+$ENDCMP
+#
+#End Doc Library

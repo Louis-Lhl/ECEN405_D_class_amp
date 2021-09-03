@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name LM361)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/input/LM361/LM361N_NOPB.lib)(options "")(descr Comparator))
+  (lib (name ADA4891-2ARMZ-R7)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/input/ADA4891/ADA4891-2ARMZ-R7.lib)(options "")(descr ""))
+  (lib (name C4AQLBW6130A3NK)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/C4AQLBW6130A3NK/C4AQLBW6130A3NK.lib)(options "")(descr ""))
+)

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name C4AQLBW6130A3NK)(type Legacy)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/C4AQLBW6130A3NK/C4AQLBW6130A3NK.mod)(options "")(descr ""))
+  (lib (name 1140-122K-RC)(type KiCad)(uri C:/Users/69134/Desktop/ECEN405_D_class_amp/schematic/lib/1140-122K-RC/1140-122K-RC.pretty)(options "")(descr ""))
+)
