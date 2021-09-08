@@ -484,7 +484,7 @@ Connection ~ 3000 4350
 Wire Wire Line
 	3000 4350 3100 4350
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q2
+L joint_pcb-rescue:IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q2
 U 1 1 61356BCC
 P 6500 4350
 F 0 "Q2" H 6608 4403 60  0000 L CNN
@@ -576,7 +576,7 @@ $EndComp
 Wire Wire Line
 	4350 3950 5700 3950
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q3
+L joint_pcb-rescue:IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q3
 U 1 1 61314458
 P 9650 2950
 F 0 "Q3" H 9758 3003 60  0000 L CNN
@@ -591,7 +591,7 @@ F 7 "Infineon Technologies" H 9850 4050 60  0001 L CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q4
+L joint_pcb-rescue:IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q4
 U 1 1 6132015F
 P 9650 4350
 F 0 "Q4" H 9758 4403 60  0000 L CNN
@@ -792,7 +792,7 @@ F 5 "100V 200mA " H 5950 2750 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q1
+L joint_pcb-rescue:IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q1
 U 1 1 613134AB
 P 6500 2900
 F 0 "Q1" H 6608 2953 60  0000 L CNN

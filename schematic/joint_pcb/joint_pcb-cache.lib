@@ -1,34 +1,6 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# ADA4891-2ARMZ-R7_ADA4891-2ARMZ-R7
-#
-DEF ADA4891-2ARMZ-R7_ADA4891-2ARMZ-R7 IC 0 30 Y Y 1 F N
-F0 "IC" 1050 300 50 H V L CNN
-F1 "ADA4891-2ARMZ-R7_ADA4891-2ARMZ-R7" 1050 200 50 H V L CNN
-F2 "SOP65P490X110-8N" 1050 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/2/ADA4891-2ARMZ-R7.pdf" 1050 0 50 H I L CNN
-F4 "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers" 1050 -100 50 H I L CNN "Description"
-F5 "1.1" 1050 -200 50 H I L CNN "Height"
-F6 "Analog Devices" 1050 -300 50 H I L CNN "Manufacturer_Name"
-F7 "ADA4891-2ARMZ-R7" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "584-ADA4891-2ARMZ-R7" 1050 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADA4891-2ARMZ-R7?qs=BpaRKvA4VqFwze6qvgLB3w%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
-F10 "ADA4891-2ARMZ-R7" 1050 -700 50 H I L CNN "Arrow Part Number"
-F11 "https://www.arrow.com/en/products/ada4891-2armz-r7/analog-devices?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
-DRAW
-P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
-X OUT1 1 0 0 200 R 50 50 0 0 P
-X -IN1 2 0 -100 200 R 50 50 0 0 P
-X +IN1 3 0 -200 200 R 50 50 0 0 P
-X -VS 4 0 -300 200 R 50 50 0 0 P
-X +IN2 5 1200 -300 200 L 50 50 0 0 P
-X -IN2 6 1200 -200 200 L 50 50 0 0 P
-X OUT2 7 1200 -100 200 L 50 50 0 0 P
-X +VS 8 1200 0 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # Amplifier_Operational_LM324
 #
 DEF Amplifier_Operational_LM324 U 0 5 Y Y 5 L N
@@ -63,28 +35,6 @@ X - 13 -300 -100 100 R 50 50 4 1 I
 X ~ 14 300 0 100 L 50 50 4 1 O
 X V- 11 -100 -300 150 U 50 50 5 1 W
 X V+ 4 -100 300 150 D 50 50 5 1 W
-ENDDRAW
-ENDDEF
-#
-# C4AQLBW6130A3NK_C4AQLBW6130A3NK
-#
-DEF C4AQLBW6130A3NK_C4AQLBW6130A3NK C 0 30 Y Y 1 F N
-F0 "C" 650 300 50 H V L CNN
-F1 "C4AQLBW6130A3NK_C4AQLBW6130A3NK" 650 200 50 H V L CNN
-F2 "C4AQLBW6130A3NK" 650 100 50 H I L CNN
-F3 "https://content.kemet.com/datasheets/F3303_C4A.pdf" 650 0 50 H I L CNN
-F4 "Film Capacitors 500V 130uF LS=52.5mm 10% AEC-Q200" 650 -100 50 H I L CNN "Description"
-F5 "50.3" 650 -200 50 H I L CNN "Height"
-F6 "Kemet" 650 -300 50 H I L CNN "Manufacturer_Name"
-F7 "C4AQLBW6130A3NK" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "80-C4AQLBW6130A3NK" 650 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQLBW6130A3NK?qs=r5DSvlrkXmLSXM5tpbL00Q%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
-X 1 1 0 -100 200 R 50 50 0 0 P
-X 2 2 800 -100 200 L 50 50 0 0 P
-X 3 3 800 0 200 L 50 50 0 0 P
-X 4 4 0 0 200 R 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
@@ -291,38 +241,6 @@ X AHB 9 500 300 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# LM361_LM361N_NOPB
-#
-DEF LM361_LM361N_NOPB IC 0 30 Y Y 1 F N
-F0 "IC" 1350 300 50 H V L CNN
-F1 "LM361_LM361N_NOPB" 1350 200 50 H V L CNN
-F2 "DIP794W56P254L1905H533Q14N" 1350 100 50 H I L CNN
-F3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" 1350 0 50 H I L CNN
-F4 "Texas Instruments LM361N/NOPB Dual Comparator, TTL O/P, 0.02us 14-Pin PDIP" 1350 -100 50 H I L CNN "Description"
-F5 "5.334" 1350 -200 50 H I L CNN "Height"
-F6 "Texas Instruments" 1350 -300 50 H I L CNN "Manufacturer_Name"
-F7 "LM361N/NOPB" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "926-LM361N/NOPB" 1350 -500 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM361N-NOPB?qs=QbsRYf82W3FaDbmG%2FEQ3FA%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 1300 100 1300 -700 200 -700 200 100 N
-X V+ 1 0 0 200 R 50 50 0 0 P
-X GND 10 1500 -400 200 L 50 50 0 0 P
-X OUTPUT_1 11 1500 -300 200 L 50 50 0 0 P
-X NC_4 12 1500 -200 200 L 50 50 0 0 P
-X STROBE_1 13 1500 -100 200 L 50 50 0 0 P
-X VCC 14 1500 0 200 L 50 50 0 0 P
-X NC_1 2 0 -100 200 R 50 50 0 0 P
-X INPUT_1 3 0 -200 200 R 50 50 0 0 P
-X INPUT_2 4 0 -300 200 R 50 50 0 0 P
-X NC_2 5 0 -400 200 R 50 50 0 0 P
-X V- 6 0 -500 200 R 50 50 0 0 P
-X NC_3 7 0 -600 200 R 50 50 0 0 P
-X STROBE_2 8 1500 -600 200 L 50 50 0 0 P
-X OUTPUT_2 9 1500 -500 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # Mechanical_MountingHole
 #
 DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
@@ -357,11 +275,61 @@ X VO 3 300 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
-# dk_Transistors-FETs-MOSFETs-Single_IRF540NPBF
+# joint_pcb-rescue_ADA4891-2ARMZ-R7-ADA4891-2ARMZ-R7
 #
-DEF dk_Transistors-FETs-MOSFETs-Single_IRF540NPBF Q 0 0 Y Y 1 F N
+DEF joint_pcb-rescue_ADA4891-2ARMZ-R7-ADA4891-2ARMZ-R7 IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "joint_pcb-rescue_ADA4891-2ARMZ-R7-ADA4891-2ARMZ-R7" 1050 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/ADA4891-2ARMZ-R7.pdf" 1050 0 50 H I L CNN
+F4 "Low Cost CMOS, High Speed, Rail-to-Rail Amplifiers" 1050 -100 50 H I L CNN "Description"
+F5 "1.1" 1050 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADA4891-2ARMZ-R7" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-ADA4891-2ARMZ-R7" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADA4891-2ARMZ-R7?qs=BpaRKvA4VqFwze6qvgLB3w%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ADA4891-2ARMZ-R7" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ada4891-2armz-r7/analog-devices?region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+X OUT1 1 0 0 200 R 50 50 0 0 P
+X -IN1 2 0 -100 200 R 50 50 0 0 P
+X +IN1 3 0 -200 200 R 50 50 0 0 P
+X -VS 4 0 -300 200 R 50 50 0 0 P
+X +IN2 5 1200 -300 200 L 50 50 0 0 P
+X -IN2 6 1200 -200 200 L 50 50 0 0 P
+X OUT2 7 1200 -100 200 L 50 50 0 0 P
+X +VS 8 1200 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# joint_pcb-rescue_C4AQLBW6130A3NK-C4AQLBW6130A3NK
+#
+DEF joint_pcb-rescue_C4AQLBW6130A3NK-C4AQLBW6130A3NK C 0 30 Y Y 1 F N
+F0 "C" 650 300 50 H V L CNN
+F1 "joint_pcb-rescue_C4AQLBW6130A3NK-C4AQLBW6130A3NK" 650 200 50 H V L CNN
+F2 "C4AQLBW6130A3NK" 650 100 50 H I L CNN
+F3 "https://content.kemet.com/datasheets/F3303_C4A.pdf" 650 0 50 H I L CNN
+F4 "Film Capacitors 500V 130uF LS=52.5mm 10% AEC-Q200" 650 -100 50 H I L CNN "Description"
+F5 "50.3" 650 -200 50 H I L CNN "Height"
+F6 "Kemet" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "C4AQLBW6130A3NK" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "80-C4AQLBW6130A3NK" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/KEMET/C4AQLBW6130A3NK?qs=r5DSvlrkXmLSXM5tpbL00Q%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# joint_pcb-rescue_IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single
+#
+DEF joint_pcb-rescue_IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q 0 0 Y Y 1 F N
 F0 "Q" -106 143 60 H V R CNN
-F1 "dk_Transistors-FETs-MOSFETs-Single_IRF540NPBF" 136 0 60 V V C CNN
+F1 "joint_pcb-rescue_IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single" 136 0 60 V V C CNN
 F2 "digikey-footprints:TO-220-3" 200 200 60 H I L CNN
 F3 "https://www.infineon.com/dgdl/irf540npbf.pdf?fileId=5546d462533600a4015355e39f0d19a1" 200 300 60 H I L CNN
 F4 "IRF540NPBF-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -396,6 +364,38 @@ P 4 1 1 0 40 20 20 -10 60 -10 40 20 F
 X G 1 -300 -100 100 R 50 50 1 1 B
 X D 2 0 200 100 D 50 50 1 1 B
 X S 3 0 -200 100 U 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# joint_pcb-rescue_LM361N_NOPB-LM361
+#
+DEF joint_pcb-rescue_LM361N_NOPB-LM361 IC 0 30 Y Y 1 F N
+F0 "IC" 1350 300 50 H V L CNN
+F1 "joint_pcb-rescue_LM361N_NOPB-LM361" 1350 200 50 H V L CNN
+F2 "DIP794W56P254L1905H533Q14N" 1350 100 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm361.pdf" 1350 0 50 H I L CNN
+F4 "Texas Instruments LM361N/NOPB Dual Comparator, TTL O/P, 0.02us 14-Pin PDIP" 1350 -100 50 H I L CNN "Description"
+F5 "5.334" 1350 -200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "LM361N/NOPB" 1350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "926-LM361N/NOPB" 1350 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM361N-NOPB?qs=QbsRYf82W3FaDbmG%2FEQ3FA%3D%3D" 1350 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1300 100 1300 -700 200 -700 200 100 N
+X V+ 1 0 0 200 R 50 50 0 0 P
+X GND 10 1500 -400 200 L 50 50 0 0 P
+X OUTPUT_1 11 1500 -300 200 L 50 50 0 0 P
+X NC_4 12 1500 -200 200 L 50 50 0 0 P
+X STROBE_1 13 1500 -100 200 L 50 50 0 0 P
+X VCC 14 1500 0 200 L 50 50 0 0 P
+X NC_1 2 0 -100 200 R 50 50 0 0 P
+X INPUT_1 3 0 -200 200 R 50 50 0 0 P
+X INPUT_2 4 0 -300 200 R 50 50 0 0 P
+X NC_2 5 0 -400 200 R 50 50 0 0 P
+X V- 6 0 -500 200 R 50 50 0 0 P
+X NC_3 7 0 -600 200 R 50 50 0 0 P
+X STROBE_2 8 1500 -600 200 L 50 50 0 0 P
+X OUTPUT_2 9 1500 -500 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

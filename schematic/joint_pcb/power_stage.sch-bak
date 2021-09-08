@@ -851,12 +851,12 @@ Wire Wire Line
 Wire Wire Line
 	7050 1300 7600 1300
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J3
 U 1 1 613894BF
 P 6850 1400
-AR Path="/6133C499/613894BF" Ref="J?"  Part="1" 
+AR Path="/6133C499/613894BF" Ref="J3"  Part="1" 
 AR Path="/6133C589/613894BF" Ref="J?"  Part="1" 
-F 0 "J?" H 6768 1075 50  0000 C CNN
+F 0 "J3" H 6768 1075 50  0000 C CNN
 F 1 "Audio OUTPUT" H 6768 1166 50  0000 C CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 6850 1400 50  0001 C CNN
 F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 6850 1400 50  0001 C CNN
@@ -865,7 +865,7 @@ F 4 "277-1667-ND" H 6850 1400 50  0001 C CNN "Digi-Key_PN"
 	-1   0    0    1   
 $EndComp
 Text GLabel 7600 1400 2    50   Input ~ 0
-Out-
+OUT-
 Text GLabel 7600 1300 2    50   Input ~ 0
 OUT+
 $EndSCHEMATC
