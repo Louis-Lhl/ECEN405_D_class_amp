@@ -1,0 +1,31 @@
+Supplier,Qty,Unit price,Subtotal,Mfr. Part No.,Sup. Part No.,Description,Comments,Application
+Digikey,2,$0.64,$1.28,LM324KAN,296-17882-5-ND,LM324 324A Quadruple Operational Amplifiers,1 + 1 spare,Preamp
+Digikey,2,$2.19,$4.38,ADA4891-2ARZ-RL,ADA4891-2ARZ-RLCT-ND,CMOS Amplifier 2 Circuit Rail-to-Rail 8-SOIC,1 + 1 spare,Triangle Osc.
+Digikey,2,$2.82,$5.64,LM361N/NOPB,LM361N/NOPB-ND,"Comparator Differential Complementary, TTL 14-PDIP",1 + 1 spare,PWM
+Digikey,2,$0.63,$1.26,MC7805CTG,MC7805CTGOS-ND,IC REG LINEAR 5V 1A TO220AB,This will draw very little current (1+1 spare),Power for 5V Components
+Digikey,2,$0.23,$0.46,A 14-LC-TT,AE9989-ND,CONN IC DIP SOCKET 14POS TIN,For LM324 and LM361,DIP Sockets
+Digikey,2,$1.02,$2.04,1984633,277-1860-ND,"4 Position Wire to Board Terminal Block Horizontal with Board 0.138"" (3.50mm) Through Hole",Signal and Power Input and Output,I/O
+Digikey,2,$0.38,$0.76,ESC107M035AG3AA,399-6081-ND,"100 µF 35 V Aluminum Electrolytic Capacitors Radial, Can 140mOhm @ 100kHz 2000 Hrs @ 105°C",,Blocking Caps
+Digikey,2,$0.30,$0.60,ESL106M100AE3AA,399-15738-ND,"10 µF 100 V Aluminum Electrolytic Capacitors Radial, Can 680mOhm @ 100kHz 8000 Hrs @ 105°C",,Big Decoupling Caps
+Digikey,4,$0.38,$1.52,FG18C0G1H103JNT06,445-173172-1-ND,"10000 pF ±5% 50V Ceramic Capacitor C0G, NP0 Radial",3 + 1 spare,Small Decoupling Caps
+Digikey,3,$0.38,$1.14,FG28C0G1H472JNT06,445-173501-1-ND,"4700 pF ±5% 50V Ceramic Capacitor C0G, NP0 Radial",2 + 1 spare,1st stage filter & sampler
+Digikey,3,$0.34,$1.02,FG28C0G1H562JNT06,445-173505-1-ND,"5600 pF ±5% 50V Ceramic Capacitor C0G, NP0 Radial",2 + 1 spare,2nd & 3rd stage filters
+Digikey,2,$0.41,$0.82,ECQ-E2473JB,P14664-ND,"0.047 µF Film Capacitor 125V 250V Polyester, Metallized Radial",1 + 1 spare,1st stage filter
+Digikey,3,$0.41,$1.23,ECQ-E2563JB,P14663-ND,"0.056 µF Film Capacitor 125V 250V Polyester, Metallized Radial",2 + 1 spare,2nd & 3rd stage filters
+Digikey,1,$0.90,$0.90,1935187,277-1579-ND,TERM BLK 4POS SIDE ENTRY 5MM PCB,,
+Digikey,3,$0.96,$2.88,ECE-A1HN101U,,100uF 50V 20%,2 + 1 spare,
+Digikey,3,$0.87,$2.61,C324C106K3R5TA,,10uF 25V 10%,2 + 1 spare,
+Digikey,3,$0.25,$0.75,K104Z15Y5VE5TL2,,"0.1uF 25V -20%,+80%",2 + 1 spare,
+Digikey,3,$0.24,$0.72,ECA-1EM100B,,10uF 25V 20%,2 + 1 spare,
+Digikey,2,$1.71,$3.42,EEU-FC1H102L,,50V 20% 1000uF,1 + 1 spare,
+Digikey,6,$0.10,$0.60,1N4148,1N4148FS-ND,100V 200mA,6 + 1 spare,
+Digikey,1,$0.47,$0.47,1935161,277-1667-ND,TERM BLK 2POS SIDE ENTRY 5MM PCB,,
+Digikey,1,$0.82,$0.82,1935789,277-6072-ND,TERM BLK 3POS SIDE ENTRY 5MM PCB,,
+Digikey,4,$0.51,$2.04,IRF530A,2156-IRF530A-ND,MOSFET N-CH 100V 14A TO-220AB,4 + 1 spare,
+Digikey,2,$5.60,$11.20,HIP4082IP,2156-HIP4082IP-IL-ND,Full bridge gate driver,1 + 1 spare,
+Digikey,1,21.88,21.88,B32320I4267K000,495-B32320I4267K000-ND,"Film Capacitor - 450V Polypropylene (PP), Metallized Radial, Can - 5 Lead",260 µF,Cbtl
+Digikey,10,0.52,5.2,UPW1H560MED1TD,493-11613-1-ND,"56 µF 50 V Aluminum Electrolytic Capacitors Radial, Can - 2000 Hrs @ 105°C",Over-purchase so we can select a matched pair,Cg
+Digikey,2,11.04,22.08,1140-222K-RC,M8383-ND,"Unshielded Wirewound Inductor 494mOhm Max Radial, Vertical Cylinder",2.2 mH,L
+,Subtotal,$56.00,,,,,,
+,GST,$8.40,,,,,,
+,Total,$64.40,,,,,,
