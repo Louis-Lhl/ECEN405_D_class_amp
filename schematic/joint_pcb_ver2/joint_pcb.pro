@@ -1,4 +1,4 @@
-update=Wednesday, 08 September 2021 at 07:36:26 pm
+update=13/09/2021 6:39:12 PM
 version=1
 last_client=pcbnew
 [general]
@@ -41,8 +41,13 @@ MinHoleToHole=0.25
 TrackWidth1=0.25
 TrackWidth2=0.508
 TrackWidth3=1
-TrackWidth4=2
-TrackWidth5=2.032
+TrackWidth4=1
+TrackWidth5=2
+TrackWidth6=2
+TrackWidth7=2.032
+TrackWidth8=2.032
+TrackWidth9=2.032
+TrackWidth10=2.54
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -71,7 +76,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

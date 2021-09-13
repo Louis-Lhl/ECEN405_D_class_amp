@@ -201,8 +201,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 1950 2000 2000
 Wire Wire Line
-	2000 1400 2000 1450
-Wire Wire Line
 	950  1550 950  1650
 Connection ~ 2000 1550
 Wire Wire Line
@@ -828,24 +826,6 @@ F 5 "0.1uF 25V -20%,+80%" H 1600 1800 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR06
-U 1 1 615470BE
-P 1650 1400
-F 0 "#PWR06" H 1650 1250 50  0001 C CNN
-F 1 "VCC" H 1665 1573 50  0000 C CNN
-F 2 "" H 1650 1400 50  0001 C CNN
-F 3 "" H 1650 1400 50  0001 C CNN
-	1    1650 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1650 1450 2000 1450
-Connection ~ 2000 1450
-Wire Wire Line
-	2000 1450 2000 1550
-Wire Wire Line
-	1650 1400 1650 1450
-$Comp
 L power:GND #PWR013
 U 1 1 6154D4CF
 P 4550 4250
@@ -869,4 +849,8 @@ F 3 "" H 4750 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4550 4550 4750 4550
+Wire Wire Line
+	2000 1400 2000 1550
+Text GLabel 2000 1450 0    50   Input ~ 0
+Vcc
 $EndSCHEMATC
