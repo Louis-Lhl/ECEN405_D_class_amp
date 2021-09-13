@@ -16,13 +16,13 @@ Digikey,1,$0.90,$0.90,1935187,277-1579-ND,TERM BLK 4POS SIDE ENTRY 5MM PCB,,
 Digikey,3,$0.96,$2.88,ECE-A1HN101U,,100uF 50V 20%,2 + 1 spare,
 Digikey,3,$0.87,$2.61,C324C106K3R5TA,,10uF 25V 10%,2 + 1 spare,
 Digikey,3,$0.25,$0.75,K104Z15Y5VE5TL2,,"0.1uF 25V -20%,+80%",2 + 1 spare,
-Digikey,3,$0.24,$0.72,ECA-1EM100B,,10uF 25V 20%,2 + 1 spare,
+Digikey,3,$0.20,$0.60,ESS105M050AB2EA,399-ESS105M050AB2EACT-ND,11uF 50V 20%,2 + 1 spare,
 Digikey,2,$1.71,$3.42,EEU-FC1H102L,,50V 20% 1000uF,1 + 1 spare,
 Digikey,6,$0.10,$0.60,1N4148,1N4148FS-ND,100V 200mA,6 + 1 spare,
 Digikey,1,$0.47,$0.47,1935161,277-1667-ND,TERM BLK 2POS SIDE ENTRY 5MM PCB,,
 Digikey,1,$0.82,$0.82,1935789,277-6072-ND,TERM BLK 3POS SIDE ENTRY 5MM PCB,,
-Digikey,4,$0.51,$2.04,IRF530A,2156-IRF530A-ND,MOSFET N-CH 100V 14A TO-220AB,4 + 1 spare,
-Digikey,2,$5.60,$11.20,HIP4082IP,2156-HIP4082IP-IL-ND,Full bridge gate driver,1 + 1 spare,
+Digikey,4,$1.07,$4.28,IRF510PBF,IRF510PBF-ND,MOSFET N-CH 100V 5.6A TO-220AB,4 + 1 spare,
+Digikey,2,$5.73,$11.46,HIP4081AIPZ,HIP4081AIPZ-ND,IC GATE DRVR HALF-BRIDGE 20DIP,1 + 1 spare,
 Digikey,1,21.88,21.88,B32320I4267K000,495-B32320I4267K000-ND,"Film Capacitor - 450V Polypropylene (PP), Metallized Radial, Can - 5 Lead",260 µF,Cbtl
 Digikey,10,0.52,5.2,UPW1H560MED1TD,493-11613-1-ND,"56 µF 50 V Aluminum Electrolytic Capacitors Radial, Can - 2000 Hrs @ 105°C",Over-purchase so we can select a matched pair,Cg
 Digikey,2,11.04,22.08,1140-222K-RC,M8383-ND,"Unshielded Wirewound Inductor 494mOhm Max Radial, Vertical Cylinder",2.2 mH,L
