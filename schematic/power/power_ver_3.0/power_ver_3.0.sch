@@ -201,7 +201,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 1950 2000 2000
 Wire Wire Line
-	2000 1400 2000 1550
+	2000 1400 2000 1450
 Wire Wire Line
 	950  1550 950  1650
 Connection ~ 2000 1550
@@ -367,17 +367,11 @@ Text GLabel 4550 3950 2    50   Output ~ 0
 BHO
 Text GLabel 4550 4150 2    50   Output ~ 0
 BLO
-Text GLabel 4550 4250 2    50   Output ~ 0
-BLS
 Text GLabel 4950 4050 2    50   Output ~ 0
 BHS
 Wire Wire Line
 	4850 4050 4950 4050
 Connection ~ 4850 4050
-Text GLabel 4850 4550 2    50   Output ~ 0
-ALS
-Wire Wire Line
-	4550 4550 4850 4550
 Text GLabel 4850 4650 2    50   Output ~ 0
 ALO
 Text GLabel 5400 4750 2    50   Output ~ 0
@@ -422,8 +416,6 @@ Text GLabel 6350 4250 0    50   Input ~ 0
 BHS
 Text GLabel 6350 5650 0    50   Input ~ 0
 BLO
-Text GLabel 6350 5800 0    50   Input ~ 0
-BLS
 Wire Wire Line
 	6350 4050 6500 4050
 Connection ~ 6500 4050
@@ -491,8 +483,6 @@ Connection ~ 7500 4250
 Wire Wire Line
 	7500 4250 7500 4500
 Wire Wire Line
-	6350 5800 7500 5800
-Wire Wire Line
 	7500 5800 7500 5250
 $Comp
 L Device:R R8
@@ -549,8 +539,6 @@ Text GLabel 10150 4250 2    50   Input ~ 0
 AHS
 Text GLabel 10150 5650 2    50   Input ~ 0
 ALO
-Text GLabel 10150 5800 2    50   Input ~ 0
-ALS
 Wire Wire Line
 	10150 4050 10000 4050
 Connection ~ 10000 4050
@@ -618,13 +606,9 @@ Connection ~ 9000 4250
 Wire Wire Line
 	9000 4250 9000 4500
 Wire Wire Line
-	10150 5800 9000 5800
-Wire Wire Line
 	9000 5800 9000 5250
 Wire Wire Line
 	7500 5800 8150 5800
-Connection ~ 7500 5800
-Connection ~ 9000 5800
 $Comp
 L power:GND #PWR08
 U 1 1 614BB839
@@ -843,4 +827,46 @@ F 5 "0.1uF 25V -20%,+80%" H 1600 1800 50  0001 C CNN "Description"
 	1    1600 1800
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:VCC #PWR06
+U 1 1 615470BE
+P 1650 1400
+F 0 "#PWR06" H 1650 1250 50  0001 C CNN
+F 1 "VCC" H 1665 1573 50  0000 C CNN
+F 2 "" H 1650 1400 50  0001 C CNN
+F 3 "" H 1650 1400 50  0001 C CNN
+	1    1650 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 1450 2000 1450
+Connection ~ 2000 1450
+Wire Wire Line
+	2000 1450 2000 1550
+Wire Wire Line
+	1650 1400 1650 1450
+$Comp
+L power:GND #PWR013
+U 1 1 6154D4CF
+P 4550 4250
+F 0 "#PWR013" H 4550 4000 50  0001 C CNN
+F 1 "GND" V 4555 4122 50  0000 R CNN
+F 2 "" H 4550 4250 50  0001 C CNN
+F 3 "" H 4550 4250 50  0001 C CNN
+	1    4550 4250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 6154E4D6
+P 4750 4550
+F 0 "#PWR014" H 4750 4300 50  0001 C CNN
+F 1 "GND" V 4755 4422 50  0000 R CNN
+F 2 "" H 4750 4550 50  0001 C CNN
+F 3 "" H 4750 4550 50  0001 C CNN
+	1    4750 4550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4550 4550 4750 4550
 $EndSCHEMATC
