@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -846,26 +846,30 @@ Text GLabel 7450 3750 2    50   Output ~ 0
 OUT+
 Text GLabel 8750 3750 0    50   Output ~ 0
 OUT-
-Wire Wire Line
-	7050 1400 7600 1400
-Wire Wire Line
-	7050 1300 7600 1300
+Text GLabel 7250 1550 2    50   Input ~ 0
+OUT-
+Text GLabel 7250 1450 2    50   Input ~ 0
+OUT+
 $Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 613894BF
-P 6850 1400
-AR Path="/6133C499/613894BF" Ref="J3"  Part="1" 
-AR Path="/6133C589/613894BF" Ref="J?"  Part="1" 
-F 0 "J3" H 6768 1075 50  0000 C CNN
-F 1 "Audio OUTPUT" H 6768 1166 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 6850 1400 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 6850 1400 50  0001 C CNN
-F 4 "277-1667-ND" H 6850 1400 50  0001 C CNN "Digi-Key_PN"
-	1    6850 1400
+L Connector:Screw_Terminal_01x03 J3
+U 1 1 613ACDFA
+P 7050 1450
+F 0 "J3" H 6968 1125 50  0000 C CNN
+F 1 "PWM OUTPUT" H 6968 1216 50  0000 C CNN
+F 2 "" H 7050 1450 50  0001 C CNN
+F 3 "~" H 7050 1450 50  0001 C CNN
+	1    7050 1450
 	-1   0    0    1   
 $EndComp
-Text GLabel 7600 1400 2    50   Input ~ 0
-OUT-
-Text GLabel 7600 1300 2    50   Input ~ 0
-OUT+
+$Comp
+L power:GND #PWR?
+U 1 1 613C0FA4
+P 7250 1350
+F 0 "#PWR?" H 7250 1100 50  0001 C CNN
+F 1 "GND" V 7255 1177 50  0000 C CNN
+F 2 "" H 7250 1350 50  0001 C CNN
+F 3 "" H 7250 1350 50  0001 C CNN
+	1    7250 1350
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

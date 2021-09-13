@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -1081,10 +1081,10 @@ Wire Wire Line
 	850  4300 850  4650
 Connection ~ 850  4650
 $Comp
-L power:+15V #PWR?
+L power:+15V #PWR0101
 U 1 1 613910BD
 P 850 4300
-F 0 "#PWR?" H 850 4150 50  0001 C CNN
+F 0 "#PWR0101" H 850 4150 50  0001 C CNN
 F 1 "+15V" H 865 4473 50  0000 C CNN
 F 2 "" H 850 4300 50  0001 C CNN
 F 3 "" H 850 4300 50  0001 C CNN

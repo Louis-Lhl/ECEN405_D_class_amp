@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 3
 Title ""
 Date ""
 Rev ""
@@ -484,7 +484,7 @@ Connection ~ 3000 4350
 Wire Wire Line
 	3000 4350 3100 4350
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q2
+L joint_pcb-rescue:IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q2
 U 1 1 61356BCC
 P 6500 4350
 F 0 "Q2" H 6608 4403 60  0000 L CNN
@@ -576,7 +576,7 @@ $EndComp
 Wire Wire Line
 	4350 3950 5700 3950
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q3
+L joint_pcb-rescue:IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q3
 U 1 1 61314458
 P 9650 2950
 F 0 "Q3" H 9758 3003 60  0000 L CNN
@@ -591,7 +591,7 @@ F 7 "Infineon Technologies" H 9850 4050 60  0001 L CNN "Manufacturer"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q4
+L joint_pcb-rescue:IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q4
 U 1 1 6132015F
 P 9650 4350
 F 0 "Q4" H 9758 4403 60  0000 L CNN
@@ -792,7 +792,7 @@ F 5 "100V 200mA " H 5950 2750 50  0001 C CNN "Description"
 	1    0    0    -1  
 $EndComp
 $Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRF540NPBF Q1
+L joint_pcb-rescue:IRF540NPBF-dk_Transistors-FETs-MOSFETs-Single Q1
 U 1 1 613134AB
 P 6500 2900
 F 0 "Q1" H 6608 2953 60  0000 L CNN
@@ -846,26 +846,30 @@ Text GLabel 7450 3750 2    50   Output ~ 0
 OUT+
 Text GLabel 8750 3750 0    50   Output ~ 0
 OUT-
-Wire Wire Line
-	7050 1400 7600 1400
-Wire Wire Line
-	7050 1300 7600 1300
+Text GLabel 6800 1850 2    50   Input ~ 0
+OUT-
+Text GLabel 6800 1750 2    50   Input ~ 0
+OUT+
 $Comp
-L Connector:Screw_Terminal_01x02 J3
-U 1 1 613894BF
-P 6850 1400
-AR Path="/6133C499/613894BF" Ref="J3"  Part="1" 
-AR Path="/6133C589/613894BF" Ref="J?"  Part="1" 
-F 0 "J3" H 6768 1075 50  0000 C CNN
-F 1 "Audio OUTPUT" H 6768 1166 50  0000 C CNN
-F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 6850 1400 50  0001 C CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1935161.pdf" H 6850 1400 50  0001 C CNN
-F 4 "277-1667-ND" H 6850 1400 50  0001 C CNN "Digi-Key_PN"
-	1    6850 1400
+L Connector:Screw_Terminal_01x03 J3
+U 1 1 613ACDFA
+P 6600 1750
+F 0 "J3" H 6518 1425 50  0000 C CNN
+F 1 "PWM OUTPUT" H 6518 1516 50  0000 C CNN
+F 2 "" H 6600 1750 50  0001 C CNN
+F 3 "~" H 6600 1750 50  0001 C CNN
+	1    6600 1750
 	-1   0    0    1   
 $EndComp
-Text GLabel 7600 1400 2    50   Input ~ 0
-OUT-
-Text GLabel 7600 1300 2    50   Input ~ 0
-OUT+
+$Comp
+L power:GND #PWR?
+U 1 1 613C0FA4
+P 6800 1650
+F 0 "#PWR?" H 6800 1400 50  0001 C CNN
+F 1 "GND" V 6805 1477 50  0000 C CNN
+F 2 "" H 6800 1650 50  0001 C CNN
+F 3 "" H 6800 1650 50  0001 C CNN
+	1    6800 1650
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
